@@ -1,0 +1,720 @@
+"accident_id";"city";"state";"latitude";"longitude";"date";"time";"hour";"day_of_week";"is_weekend";"road_type";"lanes";"traffic_signal";"weather";"visibility";"temperature";"traffic_density";"cause";"accident_severity";"vehicles_involved";"casualties";"is_peak_hour";"festival";"risk_score"
+1;"Pune";"Maharashtra";18.680827;73.930388;"2023-10-22";"05:00:00";5;"Sunday";1;"highway";3;"1";"fog";"low";32.0;"high";"weather";"fatal";2;2;0;"No Festival";0.85
+2;"Mumbai";"Maharashtra";18.817732;72.790846;"2023-05-21";"04:00:00";4;"Sunday";1;"urban";4;"0";"clear";"high";34.0;"low";"weather";"major";4;3;0;"No Festival";0.1
+3;"Mumbai";"Maharashtra";19.096889;72.819424;"2024-07-10";"13:00:00";13;"Wednesday";0;"urban";3;"0";"fog";"low";21.0;"medium";"weather";"minor";1;1;0;"No Festival";0.45
+4;"Chandigarh";"Punjab";30.787805;76.847507;"2025-03-30";"11:00:00";11;"Sunday";1;"urban";1;"1";"fog";"low";30.0;"high";"distraction";"minor";5;2;0;"No Festival";0.65
+5;"Chennai";"Tamil Nadu";12.965155;80.283313;"2024-01-25";"16:00:00";16;"Thursday";0;"highway";3;"1";"clear";"high";24.0;"low";"distraction";"minor";2;1;0;"No Festival";0.1
+6;"Delhi";"Delhi";28.79949;77.049666;"2024-07-29";"08:00:00";8;"Monday";0;"urban";5;"1";"clear";"high";36.0;"high";"overspeeding";"fatal";4;4;1;"No Festival";0.65
+7;"Bangalore";"Karnataka";13.064327;77.530941;"2025-03-24";"06:00:00";6;"Monday";0;"highway";3;"0";"clear";"high";33.0;"high";"drunk driving";"minor";4;4;0;"No Festival";0.3
+8;"Chandigarh";"Punjab";30.786617;76.733947;"2023-05-07";"14:00:00";14;"Sunday";1;"urban";3;"1";"clear";"high";25.0;"low";"weather";"major";3;0;0;"No Festival";0.1
+9;"Hyderabad";"Telangana";17.422447;78.464881;"2022-02-25";"03:00:00";3;"Friday";0;"urban";1;"0";"rain";"low";22.0;"low";"poor road";"minor";1;0;0;"No Festival";0.45
+10;"Bangalore";"Karnataka";12.939033;77.498966;"2024-03-31";"04:00:00";4;"Sunday";1;"rural";3;"1";"clear";"high";23.0;"low";"weather";"minor";1;0;0;"No Festival";0.1
+11;"Chandigarh";"Punjab";30.651926;76.876892;"2022-03-23";"13:00:00";13;"Wednesday";0;"highway";1;"1";"fog";"low";34.0;"medium";"poor road";"minor";3;3;0;"No Festival";0.45
+12;"Bangalore";"Karnataka";12.936802;77.469957;"2022-01-27";"02:00:00";2;"Thursday";0;"urban";5;"1";"rain";"medium";33.0;"low";"drunk driving";"minor";2;0;0;"No Festival";0.25
+13;"Mumbai";"Maharashtra";19.132036;72.76057;"2023-11-28";"09:00:00";9;"Tuesday";0;"highway";5;"1";"rain";"low";17.0;"medium";"weather";"major";4;1;1;"No Festival";0.6
+14;"Pune";"Maharashtra";18.532452;73.841799;"2024-03-25";"08:00:00";8;"Monday";0;"highway";6;"0";"rain";"low";40.0;"medium";"overspeeding";"major";5;2;1;"Holi";0.7
+15;"Chandigarh";"Punjab";30.721892;76.711388;"2025-02-09";"18:00:00";18;"Sunday";1;"urban";5;"1";"rain";"medium";23.0;"high";"overspeeding";"major";4;0;1;"No Festival";0.6
+16;"Chandigarh";"Punjab";30.772308;76.768413;"2024-03-18";"08:00:00";8;"Monday";0;"rural";1;"0";"clear";"high";23.0;"high";"drunk driving";"minor";4;4;1;"No Festival";0.45
+17;"Hyderabad";"Telangana";17.382285;78.551704;"2023-08-03";"11:00:00";11;"Thursday";0;"urban";6;"0";"rain";"low";20.0;"low";"overspeeding";"major";5;3;0;"No Festival";0.45
+18;"Chennai";"Tamil Nadu";13.161404;80.197819;"2023-09-26";"21:00:00";21;"Tuesday";0;"urban";1;"1";"fog";"low";30.0;"medium";"distraction";"fatal";5;5;0;"No Festival";0.65
+19;"Hyderabad";"Telangana";17.570411;78.310647;"2024-08-14";"18:00:00";18;"Wednesday";0;"urban";4;"1";"fog";"low";21.0;"high";"distraction";"fatal";1;1;1;"No Festival";1.0
+20;"Chandigarh";"Punjab";30.629812;76.765481;"2024-02-04";"02:00:00";2;"Sunday";1;"urban";5;"1";"fog";"low";36.0;"low";"poor road";"minor";2;0;0;"No Festival";0.45
+21;"Kolkata";"West Bengal";22.459848;88.361745;"2022-11-04";"01:00:00";1;"Friday";0;"highway";6;"1";"fog";"low";30.0;"low";"drunk driving";"fatal";5;5;0;"No Festival";0.65
+22;"Kolkata";"West Bengal";22.692541;88.209956;"2023-12-09";"00:00:00";0;"Saturday";1;"urban";3;"0";"fog";"low";25.0;"medium";"weather";"minor";4;1;0;"No Festival";0.45
+23;"Bangalore";"Karnataka";12.911401;77.624696;"2024-08-06";"03:00:00";3;"Tuesday";0;"urban";1;"0";"rain";"low";26.0;"medium";"distraction";"major";3;1;0;"No Festival";0.45
+24;"Chennai";"Tamil Nadu";12.98416;80.153974;"2023-07-26";"23:00:00";23;"Wednesday";0;"urban";2;"0";"clear";"high";36.0;"medium";"distraction";"minor";3;2;0;"No Festival";0.1
+25;"Delhi";"Delhi";28.528171;77.003017;"2023-03-26";"01:00:00";1;"Sunday";1;"highway";5;"1";"clear";"high";29.0;"high";"drunk driving";"minor";3;2;0;"No Festival";0.3
+26;"Delhi";"Delhi";28.631253;77.168852;"2022-11-02";"14:00:00";14;"Wednesday";0;"highway";4;"0";"rain";"low";32.0;"high";"overspeeding";"major";1;0;0;"No Festival";0.65
+27;"Chennai";"Tamil Nadu";12.964354;80.262971;"2024-10-11";"13:00:00";13;"Friday";0;"urban";6;"0";"clear";"high";39.0;"high";"weather";"major";1;1;0;"No Festival";0.3
+28;"Chennai";"Tamil Nadu";13.171632;80.200311;"2023-09-05";"05:00:00";5;"Tuesday";0;"highway";4;"1";"rain";"medium";29.0;"high";"weather";"minor";1;1;0;"No Festival";0.45
+29;"Mumbai";"Maharashtra";18.876038;72.816062;"2024-01-09";"08:00:00";8;"Tuesday";0;"rural";3;"1";"rain";"medium";28.0;"high";"overspeeding";"minor";1;1;1;"No Festival";0.6
+30;"Delhi";"Delhi";28.494878;77.089734;"2025-04-08";"17:00:00";17;"Tuesday";0;"urban";6;"0";"fog";"low";17.0;"high";"drunk driving";"minor";4;0;1;"No Festival";0.8
+31;"Bangalore";"Karnataka";13.181455;77.704682;"2023-05-21";"17:00:00";17;"Sunday";1;"rural";3;"1";"clear";"high";36.0;"high";"distraction";"minor";1;1;1;"No Festival";0.45
+32;"Mumbai";"Maharashtra";19.277812;72.889938;"2024-12-31";"07:00:00";7;"Tuesday";0;"rural";6;"0";"clear";"high";24.0;"low";"poor road";"minor";3;1;0;"No Festival";0.1
+33;"Kolkata";"West Bengal";22.644485;88.376914;"2024-10-11";"07:00:00";7;"Friday";0;"urban";6;"1";"fog";"low";18.0;"low";"overspeeding";"minor";5;4;0;"No Festival";0.45
+34;"Bangalore";"Karnataka";13.007483;77.745779;"2023-10-09";"03:00:00";3;"Monday";0;"highway";1;"0";"rain";"medium";23.0;"medium";"drunk driving";"minor";4;4;0;"No Festival";0.25
+35;"Delhi";"Delhi";28.767686;77.102505;"2022-06-02";"17:00:00";17;"Thursday";0;"rural";1;"1";"fog";"low";27.0;"medium";"poor road";"minor";5;2;1;"No Festival";0.6
+36;"Chandigarh";"Punjab";30.79305;76.864728;"2023-12-21";"04:00:00";4;"Thursday";0;"highway";6;"0";"clear";"high";35.0;"low";"overspeeding";"minor";5;1;0;"No Festival";0.1
+37;"Delhi";"Delhi";28.513789;77.26605;"2024-01-02";"14:00:00";14;"Tuesday";0;"rural";6;"1";"fog";"low";24.0;"high";"drunk driving";"minor";1;0;0;"No Festival";0.65
+38;"Chennai";"Tamil Nadu";12.941766;80.271836;"2023-02-19";"18:00:00";18;"Sunday";1;"highway";5;"1";"clear";"high";32.0;"low";"weather";"fatal";4;4;1;"No Festival";0.45
+39;"Pune";"Maharashtra";18.497326;73.919761;"2023-12-04";"06:00:00";6;"Monday";0;"rural";5;"0";"rain";"medium";20.0;"low";"drunk driving";"minor";2;1;0;"No Festival";0.25
+40;"Kolkata";"West Bengal";22.568337;88.326718;"2023-09-02";"01:00:00";1;"Saturday";1;"rural";4;"1";"rain";"medium";30.0;"high";"weather";"minor";4;3;0;"No Festival";0.45
+41;"Mumbai";"Maharashtra";18.945509;72.865677;"2024-11-19";"22:00:00";22;"Tuesday";0;"highway";5;"1";"rain";"medium";40.0;"high";"distraction";"minor";2;2;0;"No Festival";0.45
+42;"Chandigarh";"Punjab";30.739178;76.722246;"2023-07-21";"09:00:00";9;"Friday";0;"urban";4;"0";"rain";"medium";29.0;"high";"drunk driving";"fatal";3;3;1;"No Festival";0.8
+43;"Hyderabad";"Telangana";17.36441;78.442288;"2022-03-01";"22:00:00";22;"Tuesday";0;"urban";4;"1";"rain";"medium";20.0;"medium";"overspeeding";"major";1;0;0;"No Festival";0.25
+44;"Chennai";"Tamil Nadu";13.174093;80.150346;"2025-01-13";"13:00:00";13;"Monday";0;"highway";2;"1";"clear";"high";20.0;"low";"weather";"minor";1;1;0;"No Festival";0.1
+45;"Chandigarh";"Punjab";30.75772;76.718682;"2022-11-01";"00:00:00";0;"Tuesday";0;"rural";3;"1";"rain";"medium";26.0;"low";"drunk driving";"major";2;2;0;"No Festival";0.25
+46;"Bangalore";"Karnataka";13.032625;77.614829;"2024-06-21";"09:00:00";9;"Friday";0;"urban";2;"1";"rain";"medium";21.0;"high";"distraction";"minor";1;1;1;"No Festival";0.6
+47;"Chandigarh";"Punjab";30.774779;76.862232;"2025-04-11";"11:00:00";11;"Friday";0;"urban";6;"1";"rain";"low";31.0;"low";"poor road";"major";4;4;0;"No Festival";0.45
+48;"Delhi";"Delhi";28.683622;77.273941;"2023-02-06";"15:00:00";15;"Monday";0;"rural";2;"1";"rain";"medium";16.0;"medium";"poor road";"major";3;3;0;"No Festival";0.25
+49;"Hyderabad";"Telangana";17.384544;78.420669;"2022-05-23";"14:00:00";14;"Monday";0;"highway";4;"0";"rain";"low";22.0;"high";"weather";"major";2;0;0;"No Festival";0.65
+50;"Hyderabad";"Telangana";17.217784;78.280672;"2024-12-23";"13:00:00";13;"Monday";0;"rural";3;"1";"fog";"low";31.0;"medium";"distraction";"major";2;2;0;"No Festival";0.45
+51;"Pune";"Maharashtra";18.482992;73.944129;"2024-02-29";"09:00:00";9;"Thursday";0;"highway";2;"1";"clear";"high";32.0;"high";"overspeeding";"major";3;1;1;"No Festival";0.45
+52;"Hyderabad";"Telangana";17.224481;78.470636;"2023-02-23";"07:00:00";7;"Thursday";0;"rural";3;"1";"fog";"low";17.0;"medium";"drunk driving";"major";2;2;0;"No Festival";0.45
+53;"Bangalore";"Karnataka";12.863932;77.797043;"2024-07-21";"02:00:00";2;"Sunday";1;"urban";4;"0";"fog";"low";15.0;"low";"drunk driving";"major";1;0;0;"No Festival";0.45
+54;"Mumbai";"Maharashtra";19.090552;72.9844;"2023-03-14";"21:00:00";21;"Tuesday";0;"rural";1;"1";"rain";"low";29.0;"medium";"poor road";"minor";3;0;0;"No Festival";0.45
+55;"Chandigarh";"Punjab";30.790067;76.805399;"2024-09-30";"03:00:00";3;"Monday";0;"highway";5;"1";"rain";"low";25.0;"low";"weather";"major";3;1;0;"No Festival";0.45
+56;"Delhi";"Delhi";28.502883;77.165457;"2022-11-17";"06:00:00";6;"Thursday";0;"urban";5;"1";"fog";"low";32.0;"medium";"drunk driving";"minor";3;3;0;"No Festival";0.45
+57;"Chandigarh";"Punjab";30.774233;76.72531;"2023-09-07";"00:00:00";0;"Thursday";0;"urban";3;"0";"clear";"high";40.0;"low";"distraction";"major";2;1;0;"No Festival";0.1
+58;"Mumbai";"Maharashtra";19.232608;72.869852;"2023-06-04";"06:00:00";6;"Sunday";1;"urban";6;"0";"fog";"low";21.0;"medium";"weather";"major";2;1;0;"No Festival";0.45
+59;"Chennai";"Tamil Nadu";12.959773;80.153419;"2022-06-28";"02:00:00";2;"Tuesday";0;"urban";1;"0";"clear";"high";31.0;"low";"overspeeding";"minor";1;0;0;"No Festival";0.1
+60;"Chennai";"Tamil Nadu";12.985135;80.226248;"2025-03-28";"23:00:00";23;"Friday";0;"rural";2;"0";"rain";"low";25.0;"high";"overspeeding";"fatal";4;4;0;"No Festival";0.85
+61;"Mumbai";"Maharashtra";19.061169;72.872827;"2024-04-17";"14:00:00";14;"Wednesday";0;"urban";5;"1";"clear";"high";19.0;"low";"poor road";"minor";2;0;0;"No Festival";0.1
+62;"Delhi";"Delhi";28.463133;76.976698;"2024-12-31";"09:00:00";9;"Tuesday";0;"rural";1;"1";"rain";"medium";39.0;"medium";"distraction";"major";1;0;1;"No Festival";0.4
+63;"Chennai";"Tamil Nadu";12.852053;80.121615;"2023-05-13";"14:00:00";14;"Saturday";1;"urban";6;"1";"rain";"medium";27.0;"high";"distraction";"major";3;1;0;"No Festival";0.45
+64;"Chennai";"Tamil Nadu";13.017299;80.224813;"2024-04-02";"00:00:00";0;"Tuesday";0;"rural";3;"0";"fog";"low";26.0;"low";"overspeeding";"major";4;1;0;"No Festival";0.45
+65;"Pune";"Maharashtra";18.560997;73.811173;"2024-08-17";"23:00:00";23;"Saturday";1;"rural";2;"1";"fog";"low";24.0;"medium";"drunk driving";"major";2;2;0;"No Festival";0.45
+66;"Chennai";"Tamil Nadu";12.97141;80.197487;"2023-12-11";"07:00:00";7;"Monday";0;"rural";4;"1";"rain";"medium";18.0;"high";"drunk driving";"major";1;0;0;"No Festival";0.45
+67;"Mumbai";"Maharashtra";19.264702;72.886613;"2022-09-22";"10:00:00";10;"Thursday";0;"highway";1;"1";"clear";"high";21.0;"high";"poor road";"major";2;2;1;"No Festival";0.45
+68;"Mumbai";"Maharashtra";18.811624;72.877651;"2022-02-27";"05:00:00";5;"Sunday";1;"rural";2;"1";"fog";"low";17.0;"high";"drunk driving";"minor";5;5;0;"No Festival";0.65
+69;"Chandigarh";"Punjab";30.674067;76.774623;"2024-04-23";"21:00:00";21;"Tuesday";0;"rural";4;"0";"clear";"high";36.0;"high";"distraction";"major";3;1;0;"No Festival";0.3
+70;"Mumbai";"Maharashtra";19.208566;72.896859;"2023-05-26";"06:00:00";6;"Friday";0;"highway";6;"1";"fog";"low";34.0;"low";"poor road";"major";1;1;0;"No Festival";0.45
+71;"Hyderabad";"Telangana";17.530898;78.305176;"2024-11-26";"19:00:00";19;"Tuesday";0;"highway";2;"1";"fog";"low";38.0;"low";"poor road";"minor";3;3;1;"No Festival";0.6
+72;"Pune";"Maharashtra";18.442448;73.878574;"2024-03-03";"14:00:00";14;"Sunday";1;"urban";4;"0";"fog";"low";19.0;"high";"drunk driving";"major";2;2;0;"No Festival";0.65
+73;"Delhi";"Delhi";28.47365;77.060874;"2023-03-24";"11:00:00";11;"Friday";0;"highway";2;"1";"clear";"high";21.0;"high";"weather";"fatal";5;5;0;"No Festival";0.5
+74;"Bangalore";"Karnataka";12.984625;77.767823;"2022-09-21";"06:00:00";6;"Wednesday";0;"rural";1;"1";"rain";"low";19.0;"low";"distraction";"fatal";1;1;0;"No Festival";0.65
+75;"Bangalore";"Karnataka";12.954595;77.488507;"2024-02-25";"13:00:00";13;"Sunday";1;"highway";1;"1";"fog";"low";29.0;"medium";"overspeeding";"major";2;0;0;"No Festival";0.45
+76;"Chandigarh";"Punjab";30.78901;76.887359;"2022-05-02";"19:00:00";19;"Monday";0;"urban";1;"1";"clear";"high";23.0;"high";"weather";"minor";4;0;1;"No Festival";0.45
+77;"Pune";"Maharashtra";18.528017;73.850369;"2023-09-05";"06:00:00";6;"Tuesday";0;"urban";4;"1";"rain";"low";39.0;"low";"poor road";"minor";2;1;0;"No Festival";0.45
+78;"Pune";"Maharashtra";18.549441;73.804096;"2025-04-14";"05:00:00";5;"Monday";0;"urban";4;"1";"fog";"low";39.0;"high";"drunk driving";"minor";2;0;0;"No Festival";0.65
+79;"Chennai";"Tamil Nadu";12.919435;80.207627;"2023-03-28";"15:00:00";15;"Tuesday";0;"urban";2;"1";"fog";"low";27.0;"high";"poor road";"fatal";5;5;0;"No Festival";0.85
+80;"Delhi";"Delhi";28.813866;77.149528;"2025-01-31";"21:00:00";21;"Friday";0;"urban";6;"1";"fog";"low";19.0;"high";"poor road";"minor";3;1;0;"No Festival";0.65
+81;"Chandigarh";"Punjab";30.658767;76.836989;"2024-03-01";"14:00:00";14;"Friday";0;"highway";6;"0";"rain";"medium";36.0;"medium";"drunk driving";"major";3;1;0;"No Festival";0.25
+82;"Pune";"Maharashtra";18.499609;73.81264;"2024-06-14";"06:00:00";6;"Friday";0;"highway";2;"0";"rain";"medium";37.0;"medium";"overspeeding";"minor";3;0;0;"No Festival";0.25
+83;"Kolkata";"West Bengal";22.641847;88.381884;"2024-11-05";"22:00:00";22;"Tuesday";0;"rural";1;"1";"fog";"low";30.0;"low";"overspeeding";"minor";1;0;0;"No Festival";0.45
+84;"Hyderabad";"Telangana";17.386509;78.48781;"2022-04-11";"00:00:00";0;"Monday";0;"rural";1;"1";"rain";"medium";38.0;"low";"weather";"major";3;0;0;"No Festival";0.25
+85;"Hyderabad";"Telangana";17.335804;78.271751;"2023-04-21";"03:00:00";3;"Friday";0;"urban";5;"1";"fog";"low";40.0;"low";"weather";"major";2;2;0;"No Festival";0.45
+86;"Chandigarh";"Punjab";30.645926;76.791403;"2025-01-23";"17:00:00";17;"Thursday";0;"highway";2;"0";"fog";"low";36.0;"medium";"weather";"major";3;2;1;"No Festival";0.6
+87;"Chennai";"Tamil Nadu";12.93952;80.153093;"2023-12-07";"14:00:00";14;"Thursday";0;"rural";2;"1";"rain";"low";25.0;"medium";"overspeeding";"minor";5;1;0;"No Festival";0.45
+88;"Hyderabad";"Telangana";17.512138;78.471549;"2024-04-24";"06:00:00";6;"Wednesday";0;"highway";1;"0";"rain";"low";30.0;"low";"poor road";"minor";5;5;0;"No Festival";0.45
+89;"Mumbai";"Maharashtra";18.803193;72.982741;"2022-09-28";"04:00:00";4;"Wednesday";0;"highway";3;"0";"fog";"low";19.0;"low";"distraction";"minor";5;4;0;"No Festival";0.45
+90;"Delhi";"Delhi";28.838921;76.991482;"2025-02-16";"22:00:00";22;"Sunday";1;"highway";3;"0";"clear";"high";24.0;"high";"distraction";"minor";2;1;0;"No Festival";0.3
+91;"Hyderabad";"Telangana";17.470165;78.472552;"2022-09-24";"02:00:00";2;"Saturday";1;"urban";3;"1";"rain";"medium";20.0;"medium";"weather";"major";1;1;0;"No Festival";0.25
+92;"Pune";"Maharashtra";18.537548;73.723176;"2022-10-14";"23:00:00";23;"Friday";0;"rural";3;"0";"rain";"medium";38.0;"high";"drunk driving";"major";5;3;0;"No Festival";0.45
+93;"Bangalore";"Karnataka";12.941515;77.674347;"2024-11-14";"05:00:00";5;"Thursday";0;"rural";6;"0";"fog";"low";35.0;"high";"overspeeding";"minor";3;1;0;"No Festival";0.65
+94;"Pune";"Maharashtra";18.467712;73.954984;"2025-03-14";"09:00:00";9;"Friday";0;"rural";1;"1";"fog";"low";18.0;"high";"poor road";"minor";5;5;1;"No Festival";0.8
+95;"Hyderabad";"Telangana";17.44697;78.449607;"2023-09-19";"18:00:00";18;"Tuesday";0;"urban";1;"0";"fog";"low";19.0;"high";"overspeeding";"minor";2;1;1;"No Festival";0.8
+96;"Mumbai";"Maharashtra";19.250366;72.762997;"2024-06-06";"22:00:00";22;"Thursday";0;"urban";4;"0";"fog";"low";35.0;"medium";"poor road";"major";4;4;0;"No Festival";0.45
+97;"Kolkata";"West Bengal";22.48522;88.321126;"2022-09-05";"02:00:00";2;"Monday";0;"rural";4;"1";"clear";"high";37.0;"low";"overspeeding";"minor";3;3;0;"No Festival";0.1
+98;"Chandigarh";"Punjab";30.662289;76.860184;"2024-08-03";"07:00:00";7;"Saturday";1;"rural";4;"0";"clear";"high";27.0;"medium";"weather";"major";3;0;0;"No Festival";0.1
+99;"Pune";"Maharashtra";18.687205;73.858717;"2023-03-22";"17:00:00";17;"Wednesday";0;"highway";4;"0";"clear";"high";16.0;"medium";"distraction";"major";4;4;1;"No Festival";0.25
+100;"Chandigarh";"Punjab";30.729891;76.786151;"2022-04-17";"06:00:00";6;"Sunday";1;"highway";2;"0";"fog";"low";34.0;"low";"drunk driving";"minor";5;2;0;"No Festival";0.45
+101;"Chennai";"Tamil Nadu";12.810721;80.19735;"2023-08-05";"18:00:00";18;"Saturday";1;"urban";2;"1";"fog";"low";36.0;"high";"poor road";"minor";4;2;1;"No Festival";0.8
+102;"Kolkata";"West Bengal";22.537913;88.323836;"2023-07-16";"23:00:00";23;"Sunday";1;"highway";5;"1";"rain";"low";40.0;"high";"distraction";"minor";3;1;0;"No Festival";0.65
+103;"Bangalore";"Karnataka";13.045999;77.520041;"2023-04-24";"12:00:00";12;"Monday";0;"urban";4;"1";"rain";"medium";26.0;"low";"distraction";"fatal";1;1;0;"No Festival";0.45
+104;"Bangalore";"Karnataka";12.848361;77.433807;"2022-10-26";"07:00:00";7;"Wednesday";0;"rural";2;"0";"clear";"high";25.0;"medium";"drunk driving";"major";1;0;0;"No Festival";0.1
+105;"Bangalore";"Karnataka";13.057964;77.590444;"2023-12-10";"20:00:00";20;"Sunday";1;"highway";2;"0";"clear";"high";40.0;"medium";"drunk driving";"minor";4;0;0;"No Festival";0.1
+106;"Mumbai";"Maharashtra";18.990602;72.799954;"2024-12-09";"20:00:00";20;"Monday";0;"highway";2;"1";"rain";"low";23.0;"low";"drunk driving";"major";1;0;0;"No Festival";0.45
+107;"Hyderabad";"Telangana";17.426893;78.488724;"2024-03-01";"13:00:00";13;"Friday";0;"highway";4;"1";"fog";"low";39.0;"low";"distraction";"minor";5;1;0;"No Festival";0.45
+108;"Mumbai";"Maharashtra";18.838523;72.976824;"2023-11-22";"22:00:00";22;"Wednesday";0;"rural";1;"1";"rain";"medium";15.0;"low";"drunk driving";"minor";5;1;0;"No Festival";0.25
+109;"Chennai";"Tamil Nadu";13.10543;80.11737;"2023-12-20";"04:00:00";4;"Wednesday";0;"rural";6;"0";"clear";"high";29.0;"medium";"weather";"minor";2;1;0;"No Festival";0.1
+110;"Delhi";"Delhi";28.519189;76.859451;"2024-02-03";"02:00:00";2;"Saturday";1;"rural";1;"0";"rain";"low";27.0;"high";"poor road";"minor";1;0;0;"No Festival";0.65
+111;"Bangalore";"Karnataka";12.94701;77.785423;"2024-11-19";"16:00:00";16;"Tuesday";0;"rural";1;"0";"clear";"high";34.0;"low";"distraction";"minor";5;5;0;"No Festival";0.1
+112;"Hyderabad";"Telangana";17.49119;78.27063;"2025-02-15";"08:00:00";8;"Saturday";1;"urban";4;"0";"rain";"low";31.0;"high";"poor road";"minor";3;0;1;"No Festival";0.8
+113;"Chennai";"Tamil Nadu";12.812744;80.226751;"2022-09-07";"20:00:00";20;"Wednesday";0;"highway";2;"0";"fog";"low";17.0;"low";"drunk driving";"major";5;2;0;"No Festival";0.45
+114;"Chennai";"Tamil Nadu";13.126298;80.273119;"2024-07-07";"09:00:00";9;"Sunday";1;"highway";6;"1";"clear";"high";34.0;"medium";"overspeeding";"major";4;1;1;"No Festival";0.25
+115;"Kolkata";"West Bengal";22.686595;88.399393;"2024-08-31";"15:00:00";15;"Saturday";1;"rural";6;"0";"fog";"low";31.0;"medium";"weather";"fatal";1;1;0;"No Festival";0.65
+116;"Hyderabad";"Telangana";17.416162;78.471995;"2022-02-12";"11:00:00";11;"Saturday";1;"rural";4;"1";"rain";"low";17.0;"high";"distraction";"minor";3;1;0;"No Festival";0.65
+117;"Chennai";"Tamil Nadu";12.829772;80.266893;"2023-11-23";"05:00:00";5;"Thursday";0;"rural";3;"0";"rain";"low";24.0;"high";"overspeeding";"minor";2;1;0;"No Festival";0.65
+118;"Chandigarh";"Punjab";30.703228;76.745141;"2022-04-20";"22:00:00";22;"Wednesday";0;"highway";5;"0";"rain";"low";36.0;"high";"drunk driving";"minor";4;4;0;"No Festival";0.65
+119;"Pune";"Maharashtra";18.671835;73.77906;"2023-06-09";"13:00:00";13;"Friday";0;"urban";3;"0";"rain";"low";18.0;"low";"poor road";"minor";1;1;0;"No Festival";0.45
+120;"Chandigarh";"Punjab";30.780406;76.759015;"2024-11-28";"19:00:00";19;"Thursday";0;"rural";1;"0";"rain";"medium";26.0;"high";"drunk driving";"major";3;0;1;"No Festival";0.6
+121;"Bangalore";"Karnataka";12.863873;77.573049;"2023-06-23";"14:00:00";14;"Friday";0;"rural";3;"0";"clear";"high";20.0;"high";"drunk driving";"major";4;0;0;"No Festival";0.3
+122;"Chandigarh";"Punjab";30.612508;76.8941;"2024-09-07";"11:00:00";11;"Saturday";1;"highway";2;"1";"rain";"medium";15.0;"medium";"drunk driving";"minor";3;2;0;"No Festival";0.25
+123;"Pune";"Maharashtra";18.613759;73.739609;"2022-11-08";"17:00:00";17;"Tuesday";0;"highway";5;"0";"clear";"high";16.0;"high";"weather";"major";4;1;1;"No Festival";0.45
+124;"Kolkata";"West Bengal";22.615566;88.245733;"2022-09-02";"13:00:00";13;"Friday";0;"urban";4;"1";"clear";"high";25.0;"low";"poor road";"major";3;1;0;"No Festival";0.1
+125;"Chennai";"Tamil Nadu";12.917829;80.107956;"2022-09-09";"00:00:00";0;"Friday";0;"highway";6;"0";"rain";"medium";40.0;"high";"overspeeding";"major";2;0;0;"No Festival";0.45
+126;"Chandigarh";"Punjab";30.669447;76.798384;"2024-07-14";"13:00:00";13;"Sunday";1;"urban";5;"1";"fog";"low";38.0;"medium";"weather";"minor";4;3;0;"No Festival";0.45
+127;"Chennai";"Tamil Nadu";13.023148;80.267046;"2023-10-24";"22:00:00";22;"Tuesday";0;"rural";4;"0";"clear";"high";36.0;"low";"distraction";"major";3;3;0;"No Festival";0.1
+128;"Hyderabad";"Telangana";17.469395;78.426902;"2022-06-12";"23:00:00";23;"Sunday";1;"urban";1;"0";"rain";"low";17.0;"medium";"poor road";"major";3;1;0;"No Festival";0.45
+129;"Pune";"Maharashtra";18.445959;73.866259;"2022-12-05";"13:00:00";13;"Monday";0;"rural";4;"1";"clear";"high";20.0;"medium";"distraction";"major";2;2;0;"No Festival";0.1
+130;"Bangalore";"Karnataka";12.810804;77.644324;"2023-04-12";"15:00:00";15;"Wednesday";0;"highway";3;"0";"fog";"low";31.0;"low";"weather";"minor";1;1;0;"No Festival";0.45
+131;"Kolkata";"West Bengal";22.605036;88.211938;"2022-07-06";"20:00:00";20;"Wednesday";0;"urban";5;"1";"rain";"medium";22.0;"medium";"overspeeding";"major";1;1;0;"No Festival";0.25
+132;"Chandigarh";"Punjab";30.749547;76.70627;"2024-01-17";"05:00:00";5;"Wednesday";0;"urban";1;"0";"fog";"low";24.0;"high";"poor road";"minor";4;2;0;"No Festival";0.65
+133;"Delhi";"Delhi";28.8028;76.835013;"2022-06-27";"15:00:00";15;"Monday";0;"highway";4;"0";"rain";"medium";19.0;"low";"drunk driving";"fatal";2;2;0;"No Festival";0.45
+134;"Pune";"Maharashtra";18.571932;73.724503;"2025-01-21";"03:00:00";3;"Tuesday";0;"highway";2;"0";"clear";"high";31.0;"low";"drunk driving";"major";3;0;0;"No Festival";0.1
+135;"Bangalore";"Karnataka";12.913562;77.619006;"2023-10-30";"19:00:00";19;"Monday";0;"highway";3;"0";"rain";"medium";34.0;"medium";"poor road";"major";4;3;1;"No Festival";0.4
+136;"Chandigarh";"Punjab";30.771578;76.798125;"2023-09-24";"20:00:00";20;"Sunday";1;"highway";3;"1";"rain";"medium";25.0;"high";"weather";"fatal";5;5;0;"No Festival";0.65
+137;"Chennai";"Tamil Nadu";12.910539;80.183088;"2023-07-08";"12:00:00";12;"Saturday";1;"highway";5;"1";"clear";"high";28.0;"high";"poor road";"minor";3;2;0;"No Festival";0.3
+138;"Hyderabad";"Telangana";17.57514;78.484234;"2023-07-23";"00:00:00";0;"Sunday";1;"highway";5;"0";"rain";"low";17.0;"low";"distraction";"major";1;0;0;"No Festival";0.45
+139;"Pune";"Maharashtra";18.697073;73.828047;"2022-11-28";"04:00:00";4;"Monday";0;"highway";2;"0";"clear";"high";20.0;"high";"weather";"minor";5;2;0;"No Festival";0.3
+140;"Mumbai";"Maharashtra";19.257558;72.75368;"2024-02-13";"10:00:00";10;"Tuesday";0;"highway";3;"1";"fog";"low";30.0;"high";"weather";"major";3;0;1;"No Festival";0.8
+141;"Chennai";"Tamil Nadu";13.099257;80.226182;"2024-09-21";"08:00:00";8;"Saturday";1;"urban";4;"0";"rain";"low";32.0;"high";"poor road";"major";1;0;1;"No Festival";0.8
+142;"Chandigarh";"Punjab";30.612831;76.810119;"2024-11-23";"22:00:00";22;"Saturday";1;"highway";4;"1";"rain";"medium";17.0;"medium";"drunk driving";"minor";4;4;0;"No Festival";0.25
+143;"Bangalore";"Karnataka";12.851488;77.589232;"2024-10-22";"21:00:00";21;"Tuesday";0;"urban";2;"1";"fog";"low";36.0;"high";"drunk driving";"minor";1;0;0;"No Festival";0.65
+144;"Kolkata";"West Bengal";22.408139;88.322983;"2023-12-27";"21:00:00";21;"Wednesday";0;"rural";3;"0";"rain";"medium";29.0;"high";"distraction";"minor";1;0;0;"No Festival";0.45
+145;"Kolkata";"West Bengal";22.470344;88.318475;"2022-06-05";"06:00:00";6;"Sunday";1;"urban";3;"1";"clear";"high";38.0;"medium";"drunk driving";"minor";3;3;0;"No Festival";0.1
+146;"Kolkata";"West Bengal";22.672696;88.400666;"2023-01-27";"15:00:00";15;"Friday";0;"highway";2;"0";"clear";"high";28.0;"low";"distraction";"major";2;1;0;"No Festival";0.1
+147;"Chennai";"Tamil Nadu";13.145041;80.133716;"2022-05-06";"07:00:00";7;"Friday";0;"highway";5;"0";"fog";"low";15.0;"high";"weather";"major";1;0;0;"No Festival";0.65
+148;"Kolkata";"West Bengal";22.524367;88.453597;"2024-07-31";"01:00:00";1;"Wednesday";0;"urban";5;"0";"rain";"medium";26.0;"low";"weather";"minor";2;0;0;"No Festival";0.25
+149;"Bangalore";"Karnataka";13.055067;77.418018;"2023-10-19";"11:00:00";11;"Thursday";0;"rural";4;"1";"rain";"low";30.0;"low";"distraction";"minor";3;2;0;"No Festival";0.45
+150;"Delhi";"Delhi";28.654528;76.925723;"2022-10-05";"02:00:00";2;"Wednesday";0;"urban";4;"1";"rain";"low";35.0;"low";"weather";"major";5;2;0;"No Festival";0.45
+151;"Bangalore";"Karnataka";13.174917;77.602348;"2023-11-04";"21:00:00";21;"Saturday";1;"rural";4;"1";"rain";"low";29.0;"medium";"drunk driving";"major";4;4;0;"No Festival";0.45
+152;"Pune";"Maharashtra";18.479329;73.88208;"2022-11-06";"22:00:00";22;"Sunday";1;"rural";6;"0";"clear";"high";33.0;"low";"poor road";"fatal";5;5;0;"No Festival";0.3
+153;"Chandigarh";"Punjab";30.65561;76.831544;"2024-04-25";"03:00:00";3;"Thursday";0;"highway";6;"1";"rain";"medium";25.0;"low";"poor road";"fatal";1;1;0;"No Festival";0.45
+154;"Bangalore";"Karnataka";13.052805;77.617588;"2024-07-23";"14:00:00";14;"Tuesday";0;"urban";3;"1";"rain";"medium";26.0;"medium";"weather";"minor";5;0;0;"No Festival";0.25
+155;"Delhi";"Delhi";28.834402;77.209459;"2022-12-23";"12:00:00";12;"Friday";0;"rural";5;"1";"fog";"low";33.0;"medium";"poor road";"fatal";3;3;0;"No Festival";0.65
+156;"Mumbai";"Maharashtra";19.090344;72.902108;"2022-03-28";"10:00:00";10;"Monday";0;"urban";6;"0";"clear";"high";35.0;"high";"weather";"fatal";2;2;1;"No Festival";0.65
+157;"Chennai";"Tamil Nadu";13.196352;80.138535;"2023-02-04";"07:00:00";7;"Saturday";1;"urban";5;"0";"fog";"low";32.0;"medium";"drunk driving";"minor";1;1;0;"No Festival";0.45
+158;"Chennai";"Tamil Nadu";13.152998;80.258685;"2024-09-15";"22:00:00";22;"Sunday";1;"rural";1;"0";"fog";"low";19.0;"high";"distraction";"major";4;2;0;"No Festival";0.65
+159;"Delhi";"Delhi";28.671166;77.064188;"2023-02-25";"03:00:00";3;"Saturday";1;"rural";6;"1";"clear";"high";27.0;"high";"distraction";"minor";4;3;0;"No Festival";0.3
+160;"Kolkata";"West Bengal";22.535434;88.290362;"2025-01-09";"08:00:00";8;"Thursday";0;"highway";5;"0";"clear";"high";33.0;"low";"distraction";"major";1;1;1;"No Festival";0.25
+161;"Pune";"Maharashtra";18.522797;73.933778;"2022-05-17";"20:00:00";20;"Tuesday";0;"urban";4;"0";"fog";"low";17.0;"high";"poor road";"fatal";1;1;0;"No Festival";0.85
+162;"Bangalore";"Karnataka";12.828296;77.719866;"2025-01-31";"01:00:00";1;"Friday";0;"rural";3;"1";"fog";"low";35.0;"low";"overspeeding";"major";2;0;0;"No Festival";0.45
+163;"Pune";"Maharashtra";18.435528;73.934128;"2023-05-20";"11:00:00";11;"Saturday";1;"rural";1;"1";"rain";"low";19.0;"low";"poor road";"major";5;1;0;"No Festival";0.45
+164;"Chennai";"Tamil Nadu";12.921984;80.115306;"2023-03-24";"18:00:00";18;"Friday";0;"rural";5;"1";"clear";"high";21.0;"medium";"poor road";"major";5;5;1;"No Festival";0.25
+165;"Chennai";"Tamil Nadu";12.841819;80.258805;"2022-05-06";"00:00:00";0;"Friday";0;"rural";2;"1";"rain";"low";37.0;"low";"drunk driving";"minor";4;0;0;"No Festival";0.45
+166;"Delhi";"Delhi";28.492703;76.815886;"2022-04-12";"07:00:00";7;"Tuesday";0;"highway";1;"1";"fog";"low";17.0;"high";"weather";"major";4;3;0;"No Festival";0.65
+167;"Chandigarh";"Punjab";30.677187;76.727473;"2025-03-30";"04:00:00";4;"Sunday";1;"rural";4;"0";"rain";"low";16.0;"medium";"drunk driving";"fatal";5;5;0;"No Festival";0.65
+168;"Bangalore";"Karnataka";13.068595;77.762442;"2022-12-22";"17:00:00";17;"Thursday";0;"urban";1;"1";"clear";"high";33.0;"medium";"poor road";"fatal";5;5;1;"No Festival";0.45
+169;"Chennai";"Tamil Nadu";12.891896;80.227598;"2022-01-21";"18:00:00";18;"Friday";0;"urban";3;"1";"clear";"high";29.0;"high";"poor road";"minor";2;1;1;"No Festival";0.45
+170;"Chandigarh";"Punjab";30.788551;76.774195;"2022-01-22";"07:00:00";7;"Saturday";1;"highway";5;"1";"rain";"low";37.0;"low";"drunk driving";"minor";4;3;0;"No Festival";0.45
+171;"Chennai";"Tamil Nadu";13.057219;80.184551;"2022-09-18";"06:00:00";6;"Sunday";1;"highway";6;"1";"rain";"low";38.0;"medium";"drunk driving";"fatal";4;4;0;"No Festival";0.65
+172;"Delhi";"Delhi";28.555907;77.177935;"2022-09-02";"21:00:00";21;"Friday";0;"highway";1;"1";"fog";"low";37.0;"low";"drunk driving";"minor";4;0;0;"No Festival";0.45
+173;"Bangalore";"Karnataka";12.94144;77.549761;"2023-12-08";"10:00:00";10;"Friday";0;"rural";3;"0";"rain";"low";19.0;"high";"distraction";"minor";2;1;1;"No Festival";0.8
+174;"Bangalore";"Karnataka";12.90836;77.563109;"2023-08-24";"21:00:00";21;"Thursday";0;"highway";1;"1";"rain";"low";27.0;"high";"weather";"minor";5;1;0;"No Festival";0.65
+175;"Bangalore";"Karnataka";13.008178;77.683777;"2023-05-09";"04:00:00";4;"Tuesday";0;"highway";5;"0";"rain";"low";27.0;"low";"overspeeding";"major";4;0;0;"No Festival";0.45
+176;"Hyderabad";"Telangana";17.253718;78.264759;"2023-12-03";"21:00:00";21;"Sunday";1;"highway";4;"0";"fog";"low";20.0;"high";"weather";"minor";5;1;0;"No Festival";0.65
+177;"Kolkata";"West Bengal";22.643283;88.434764;"2024-04-09";"14:00:00";14;"Tuesday";0;"urban";3;"0";"fog";"low";19.0;"low";"poor road";"minor";3;1;0;"No Festival";0.45
+178;"Chandigarh";"Punjab";30.78977;76.791081;"2024-11-11";"04:00:00";4;"Monday";0;"highway";2;"1";"clear";"high";39.0;"low";"distraction";"minor";5;0;0;"No Festival";0.1
+179;"Bangalore";"Karnataka";13.094302;77.576124;"2023-04-30";"01:00:00";1;"Sunday";1;"rural";1;"1";"clear";"high";32.0;"low";"weather";"minor";1;0;0;"No Festival";0.1
+180;"Kolkata";"West Bengal";22.453114;88.383374;"2022-01-31";"21:00:00";21;"Monday";0;"urban";3;"0";"clear";"high";20.0;"medium";"weather";"fatal";4;4;0;"No Festival";0.3
+181;"Hyderabad";"Telangana";17.492197;78.20001;"2022-01-13";"19:00:00";19;"Thursday";0;"urban";6;"0";"rain";"medium";20.0;"high";"poor road";"minor";2;0;1;"No Festival";0.6
+182;"Chandigarh";"Punjab";30.786188;76.807627;"2023-03-28";"22:00:00";22;"Tuesday";0;"highway";6;"1";"rain";"low";33.0;"low";"poor road";"minor";5;2;0;"No Festival";0.45
+183;"Hyderabad";"Telangana";17.563446;78.232019;"2023-10-10";"13:00:00";13;"Tuesday";0;"urban";5;"0";"rain";"low";39.0;"high";"poor road";"minor";5;0;0;"No Festival";0.65
+184;"Bangalore";"Karnataka";12.971567;77.689448;"2022-07-11";"20:00:00";20;"Monday";0;"urban";1;"1";"fog";"low";21.0;"medium";"drunk driving";"minor";1;0;0;"No Festival";0.45
+185;"Chandigarh";"Punjab";30.784319;76.811367;"2024-08-19";"08:00:00";8;"Monday";0;"highway";2;"0";"clear";"high";23.0;"high";"weather";"major";5;5;1;"No Festival";0.45
+186;"Hyderabad";"Telangana";17.262441;78.332996;"2022-03-21";"19:00:00";19;"Monday";0;"urban";2;"1";"clear";"high";23.0;"low";"distraction";"major";2;0;1;"No Festival";0.25
+187;"Pune";"Maharashtra";18.62914;73.851101;"2025-01-01";"10:00:00";10;"Wednesday";0;"rural";6;"0";"rain";"low";34.0;"high";"distraction";"minor";1;1;1;"No Festival";0.8
+188;"Pune";"Maharashtra";18.616196;73.705131;"2024-10-18";"08:00:00";8;"Friday";0;"urban";1;"0";"fog";"low";31.0;"high";"overspeeding";"major";3;1;1;"No Festival";0.8
+189;"Hyderabad";"Telangana";17.432325;78.449923;"2022-09-08";"00:00:00";0;"Thursday";0;"urban";4;"0";"clear";"high";22.0;"low";"overspeeding";"major";5;4;0;"No Festival";0.1
+190;"Mumbai";"Maharashtra";18.849144;72.726339;"2023-02-28";"08:00:00";8;"Tuesday";0;"highway";6;"0";"fog";"low";27.0;"low";"poor road";"major";1;0;1;"No Festival";0.6
+191;"Kolkata";"West Bengal";22.563456;88.315626;"2024-03-06";"19:00:00";19;"Wednesday";0;"urban";3;"1";"rain";"low";36.0;"high";"poor road";"fatal";1;1;1;"No Festival";1.0
+192;"Pune";"Maharashtra";18.441514;73.89283;"2025-01-28";"19:00:00";19;"Tuesday";0;"urban";4;"1";"rain";"low";16.0;"high";"poor road";"minor";5;1;1;"No Festival";0.8
+193;"Pune";"Maharashtra";18.627045;73.919901;"2024-04-23";"15:00:00";15;"Tuesday";0;"urban";2;"1";"rain";"medium";21.0;"high";"weather";"major";4;3;0;"No Festival";0.45
+194;"Hyderabad";"Telangana";17.453887;78.418717;"2023-01-25";"07:00:00";7;"Wednesday";0;"rural";5;"1";"clear";"high";34.0;"medium";"weather";"minor";5;3;0;"No Festival";0.1
+195;"Hyderabad";"Telangana";17.310034;78.367309;"2024-07-13";"18:00:00";18;"Saturday";1;"urban";4;"0";"rain";"low";16.0;"high";"distraction";"major";3;2;1;"No Festival";0.8
+196;"Bangalore";"Karnataka";13.180613;77.573218;"2024-01-30";"02:00:00";2;"Tuesday";0;"urban";4;"0";"fog";"low";17.0;"low";"overspeeding";"major";2;1;0;"No Festival";0.45
+197;"Kolkata";"West Bengal";22.48019;88.366839;"2022-03-11";"16:00:00";16;"Friday";0;"urban";5;"0";"rain";"low";20.0;"low";"weather";"minor";5;5;0;"No Festival";0.45
+198;"Mumbai";"Maharashtra";19.05988;72.748749;"2022-11-04";"02:00:00";2;"Friday";0;"urban";5;"1";"clear";"high";36.0;"high";"weather";"major";2;2;0;"No Festival";0.3
+199;"Chandigarh";"Punjab";30.650517;76.789449;"2022-10-21";"00:00:00";0;"Friday";0;"urban";2;"1";"clear";"high";36.0;"low";"drunk driving";"minor";3;2;0;"No Festival";0.1
+200;"Mumbai";"Maharashtra";19.093036;72.876566;"2024-04-20";"09:00:00";9;"Saturday";1;"highway";5;"1";"rain";"medium";40.0;"low";"drunk driving";"fatal";1;1;1;"No Festival";0.6
+201;"Delhi";"Delhi";28.596361;77.02673;"2023-02-22";"00:00:00";0;"Wednesday";0;"highway";6;"0";"fog";"low";19.0;"low";"weather";"minor";4;1;0;"No Festival";0.45
+202;"Kolkata";"West Bengal";22.648231;88.411475;"2023-01-28";"15:00:00";15;"Saturday";1;"rural";1;"0";"rain";"low";27.0;"low";"drunk driving";"minor";5;3;0;"No Festival";0.45
+203;"Chennai";"Tamil Nadu";12.894547;80.239536;"2025-03-03";"03:00:00";3;"Monday";0;"highway";6;"0";"clear";"high";22.0;"medium";"poor road";"minor";2;1;0;"No Festival";0.1
+204;"Chandigarh";"Punjab";30.706127;76.870146;"2023-09-04";"19:00:00";19;"Monday";0;"highway";6;"0";"rain";"low";34.0;"high";"distraction";"major";5;1;1;"No Festival";0.8
+205;"Chandigarh";"Punjab";30.736284;76.88423;"2022-05-07";"18:00:00";18;"Saturday";1;"urban";1;"0";"rain";"low";15.0;"high";"overspeeding";"minor";5;4;1;"No Festival";0.8
+206;"Bangalore";"Karnataka";12.884671;77.570809;"2024-04-07";"10:00:00";10;"Sunday";1;"urban";1;"1";"rain";"medium";37.0;"low";"weather";"minor";3;3;1;"No Festival";0.4
+207;"Kolkata";"West Bengal";22.641019;88.468147;"2023-12-28";"14:00:00";14;"Thursday";0;"urban";5;"1";"clear";"high";22.0;"high";"poor road";"minor";3;0;0;"No Festival";0.3
+208;"Delhi";"Delhi";28.497753;76.936211;"2022-12-27";"22:00:00";22;"Tuesday";0;"urban";2;"1";"fog";"low";34.0;"high";"overspeeding";"minor";4;0;0;"No Festival";0.65
+209;"Hyderabad";"Telangana";17.22001;78.311087;"2024-07-07";"10:00:00";10;"Sunday";1;"rural";6;"0";"fog";"low";16.0;"high";"weather";"minor";4;2;1;"No Festival";0.8
+210;"Pune";"Maharashtra";18.533492;73.818053;"2023-09-10";"23:00:00";23;"Sunday";1;"highway";4;"0";"rain";"low";19.0;"high";"weather";"major";2;0;0;"No Festival";0.65
+211;"Bangalore";"Karnataka";12.898651;77.518953;"2024-07-11";"18:00:00";18;"Thursday";0;"urban";2;"0";"clear";"high";22.0;"high";"distraction";"minor";3;0;1;"No Festival";0.45
+212;"Chennai";"Tamil Nadu";12.942775;80.266239;"2023-09-11";"00:00:00";0;"Monday";0;"highway";3;"0";"fog";"low";24.0;"low";"distraction";"minor";3;2;0;"No Festival";0.45
+213;"Mumbai";"Maharashtra";18.845526;72.792846;"2024-05-06";"15:00:00";15;"Monday";0;"urban";5;"1";"fog";"low";31.0;"low";"distraction";"major";2;0;0;"No Festival";0.45
+214;"Pune";"Maharashtra";18.449045;73.963577;"2022-12-17";"20:00:00";20;"Saturday";1;"rural";2;"1";"rain";"low";22.0;"low";"poor road";"major";3;1;0;"No Festival";0.45
+215;"Chennai";"Tamil Nadu";12.861288;80.167097;"2022-01-18";"02:00:00";2;"Tuesday";0;"highway";1;"1";"rain";"low";29.0;"medium";"poor road";"minor";5;5;0;"No Festival";0.45
+216;"Pune";"Maharashtra";18.618088;73.989576;"2024-06-01";"08:00:00";8;"Saturday";1;"urban";3;"1";"fog";"low";28.0;"high";"drunk driving";"minor";3;0;1;"No Festival";0.8
+217;"Bangalore";"Karnataka";13.09534;77.402311;"2024-11-27";"02:00:00";2;"Wednesday";0;"rural";5;"0";"clear";"high";34.0;"low";"weather";"major";5;5;0;"No Festival";0.1
+218;"Delhi";"Delhi";28.694773;77.138622;"2023-02-25";"18:00:00";18;"Saturday";1;"rural";3;"0";"rain";"low";35.0;"high";"distraction";"minor";2;1;1;"No Festival";0.8
+219;"Chandigarh";"Punjab";30.75305;76.886282;"2024-10-10";"17:00:00";17;"Thursday";0;"highway";5;"1";"fog";"low";19.0;"high";"distraction";"major";2;1;1;"No Festival";0.8
+220;"Bangalore";"Karnataka";12.888723;77.598691;"2023-08-05";"23:00:00";23;"Saturday";1;"highway";5;"0";"rain";"medium";25.0;"high";"weather";"fatal";1;1;0;"No Festival";0.65
+221;"Mumbai";"Maharashtra";18.960845;72.922053;"2024-09-24";"21:00:00";21;"Tuesday";0;"rural";4;"1";"clear";"high";33.0;"high";"drunk driving";"minor";2;0;0;"No Festival";0.3
+222;"Bangalore";"Karnataka";12.966;77.42648;"2023-10-28";"18:00:00";18;"Saturday";1;"highway";4;"0";"fog";"low";17.0;"medium";"weather";"minor";1;1;1;"No Festival";0.6
+223;"Chennai";"Tamil Nadu";13.059482;80.132694;"2022-12-30";"19:00:00";19;"Friday";0;"highway";4;"0";"fog";"low";29.0;"high";"weather";"major";5;4;1;"No Festival";0.8
+224;"Pune";"Maharashtra";18.479836;73.980057;"2023-08-07";"23:00:00";23;"Monday";0;"rural";5;"1";"fog";"low";34.0;"medium";"weather";"major";2;1;0;"No Festival";0.45
+225;"Delhi";"Delhi";28.570297;77.25409;"2023-04-12";"10:00:00";10;"Wednesday";0;"highway";6;"1";"fog";"low";35.0;"medium";"drunk driving";"minor";2;1;1;"No Festival";0.6
+226;"Mumbai";"Maharashtra";19.147537;72.781967;"2023-10-19";"06:00:00";6;"Thursday";0;"rural";2;"1";"rain";"medium";36.0;"high";"poor road";"minor";4;4;0;"No Festival";0.45
+227;"Chennai";"Tamil Nadu";12.931329;80.177908;"2024-09-28";"22:00:00";22;"Saturday";1;"highway";4;"1";"rain";"medium";26.0;"medium";"weather";"minor";2;0;0;"No Festival";0.25
+228;"Chennai";"Tamil Nadu";12.931505;80.204867;"2023-05-01";"18:00:00";18;"Monday";0;"rural";2;"1";"rain";"low";28.0;"medium";"drunk driving";"major";3;2;1;"No Festival";0.6
+229;"Chennai";"Tamil Nadu";12.826312;80.207278;"2022-01-14";"03:00:00";3;"Friday";0;"urban";6;"0";"clear";"high";35.0;"medium";"drunk driving";"minor";3;1;0;"No Festival";0.1
+230;"Hyderabad";"Telangana";17.227437;78.332683;"2024-10-12";"13:00:00";13;"Saturday";1;"rural";4;"0";"clear";"high";38.0;"high";"distraction";"major";1;1;0;"No Festival";0.3
+231;"Pune";"Maharashtra";18.511753;73.872341;"2024-03-30";"11:00:00";11;"Saturday";1;"urban";2;"1";"rain";"low";28.0;"high";"poor road";"minor";1;1;0;"No Festival";0.65
+232;"Bangalore";"Karnataka";13.166458;77.645976;"2022-11-08";"00:00:00";0;"Tuesday";0;"rural";5;"0";"fog";"low";39.0;"low";"weather";"major";4;0;0;"No Festival";0.45
+233;"Hyderabad";"Telangana";17.230262;78.253208;"2022-07-11";"00:00:00";0;"Monday";0;"urban";3;"1";"clear";"high";23.0;"low";"overspeeding";"fatal";1;1;0;"No Festival";0.3
+234;"Chennai";"Tamil Nadu";13.101426;80.265354;"2022-11-27";"09:00:00";9;"Sunday";1;"urban";1;"1";"rain";"low";23.0;"medium";"poor road";"minor";3;2;1;"No Festival";0.6
+235;"Chandigarh";"Punjab";30.621868;76.767922;"2024-02-18";"14:00:00";14;"Sunday";1;"highway";3;"0";"fog";"low";32.0;"low";"poor road";"major";2;2;0;"No Festival";0.45
+236;"Chennai";"Tamil Nadu";13.104646;80.294344;"2024-05-23";"07:00:00";7;"Thursday";0;"urban";3;"0";"fog";"low";16.0;"high";"drunk driving";"major";3;2;0;"No Festival";0.65
+237;"Bangalore";"Karnataka";13.160679;77.450578;"2022-08-14";"17:00:00";17;"Sunday";1;"urban";2;"0";"clear";"high";30.0;"medium";"overspeeding";"major";5;4;1;"No Festival";0.25
+238;"Kolkata";"West Bengal";22.421859;88.374025;"2022-05-05";"09:00:00";9;"Thursday";0;"highway";3;"1";"clear";"high";31.0;"medium";"overspeeding";"major";1;1;1;"No Festival";0.25
+239;"Delhi";"Delhi";28.691978;77.169403;"2023-01-03";"21:00:00";21;"Tuesday";0;"urban";3;"0";"fog";"low";26.0;"high";"poor road";"major";1;1;0;"No Festival";0.65
+240;"Kolkata";"West Bengal";22.582986;88.286863;"2024-09-20";"06:00:00";6;"Friday";0;"urban";1;"0";"clear";"high";29.0;"low";"overspeeding";"fatal";1;1;0;"No Festival";0.3
+241;"Mumbai";"Maharashtra";19.000379;72.96346;"2023-10-26";"17:00:00";17;"Thursday";0;"rural";1;"0";"rain";"low";20.0;"high";"weather";"minor";4;4;1;"No Festival";0.8
+242;"Mumbai";"Maharashtra";18.844068;72.948507;"2023-01-06";"07:00:00";7;"Friday";0;"urban";2;"0";"rain";"low";26.0;"high";"poor road";"major";4;2;0;"No Festival";0.65
+243;"Chandigarh";"Punjab";30.722768;76.846181;"2023-05-04";"04:00:00";4;"Thursday";0;"rural";3;"0";"fog";"low";40.0;"medium";"distraction";"major";4;2;0;"No Festival";0.45
+244;"Chandigarh";"Punjab";30.726192;76.756446;"2022-12-18";"08:00:00";8;"Sunday";1;"rural";5;"0";"clear";"high";40.0;"medium";"weather";"minor";4;0;1;"No Festival";0.25
+245;"Kolkata";"West Bengal";22.542146;88.249395;"2024-08-13";"11:00:00";11;"Tuesday";0;"rural";1;"0";"rain";"medium";20.0;"high";"overspeeding";"minor";2;1;0;"No Festival";0.45
+246;"Chennai";"Tamil Nadu";12.979934;80.258425;"2022-06-29";"16:00:00";16;"Wednesday";0;"rural";3;"0";"fog";"low";28.0;"medium";"overspeeding";"major";4;2;0;"No Festival";0.45
+247;"Kolkata";"West Bengal";22.691684;88.380487;"2024-08-04";"15:00:00";15;"Sunday";1;"highway";3;"1";"fog";"low";23.0;"medium";"overspeeding";"minor";2;1;0;"No Festival";0.45
+248;"Pune";"Maharashtra";18.554742;73.846455;"2022-02-27";"05:00:00";5;"Sunday";1;"rural";1;"0";"fog";"low";26.0;"high";"drunk driving";"minor";2;0;0;"No Festival";0.65
+249;"Pune";"Maharashtra";18.492599;73.918395;"2023-12-01";"08:00:00";8;"Friday";0;"urban";3;"0";"rain";"low";35.0;"high";"drunk driving";"minor";5;3;1;"No Festival";0.8
+250;"Bangalore";"Karnataka";12.87812;77.75548;"2022-11-22";"11:00:00";11;"Tuesday";0;"highway";2;"0";"rain";"medium";15.0;"high";"poor road";"minor";1;1;0;"No Festival";0.45
+251;"Kolkata";"West Bengal";22.628792;88.377574;"2024-12-20";"11:00:00";11;"Friday";0;"highway";2;"0";"fog";"low";30.0;"high";"overspeeding";"minor";3;2;0;"No Festival";0.65
+252;"Delhi";"Delhi";28.42531;76.842778;"2024-12-22";"06:00:00";6;"Sunday";1;"highway";4;"1";"fog";"low";24.0;"medium";"overspeeding";"minor";5;0;0;"No Festival";0.45
+253;"Chennai";"Tamil Nadu";13.07404;80.152144;"2022-12-30";"20:00:00";20;"Friday";0;"rural";3;"0";"clear";"high";28.0;"medium";"drunk driving";"minor";2;1;0;"No Festival";0.1
+254;"Delhi";"Delhi";28.403747;76.847221;"2024-04-27";"02:00:00";2;"Saturday";1;"rural";5;"0";"rain";"low";37.0;"low";"weather";"major";5;3;0;"No Festival";0.45
+255;"Mumbai";"Maharashtra";19.150088;72.702839;"2023-10-20";"20:00:00";20;"Friday";0;"highway";3;"0";"fog";"low";37.0;"high";"weather";"major";5;0;0;"No Festival";0.65
+256;"Mumbai";"Maharashtra";19.035655;72.955069;"2022-01-01";"06:00:00";6;"Saturday";1;"highway";4;"0";"clear";"high";29.0;"low";"drunk driving";"minor";5;5;0;"No Festival";0.1
+257;"Chennai";"Tamil Nadu";12.911957;80.196891;"2023-05-21";"18:00:00";18;"Sunday";1;"urban";5;"0";"rain";"medium";40.0;"low";"drunk driving";"minor";1;1;1;"No Festival";0.4
+258;"Delhi";"Delhi";28.472435;77.19605;"2022-05-16";"01:00:00";1;"Monday";0;"highway";5;"0";"fog";"low";26.0;"high";"overspeeding";"minor";5;4;0;"No Festival";0.65
+259;"Chandigarh";"Punjab";30.6107;76.703665;"2024-07-11";"15:00:00";15;"Thursday";0;"urban";5;"0";"fog";"low";21.0;"high";"poor road";"minor";5;5;0;"No Festival";0.65
+260;"Delhi";"Delhi";28.404569;76.804829;"2022-06-16";"11:00:00";11;"Thursday";0;"rural";4;"0";"clear";"high";34.0;"high";"drunk driving";"fatal";3;3;0;"No Festival";0.5
+261;"Chandigarh";"Punjab";30.63764;76.825478;"2023-03-23";"14:00:00";14;"Thursday";0;"rural";6;"1";"fog";"low";31.0;"low";"drunk driving";"major";4;3;0;"No Festival";0.45
+262;"Mumbai";"Maharashtra";19.115596;72.802382;"2022-07-04";"07:00:00";7;"Monday";0;"rural";4;"0";"clear";"high";25.0;"medium";"distraction";"major";1;0;0;"No Festival";0.1
+263;"Pune";"Maharashtra";18.695595;73.868888;"2022-05-26";"12:00:00";12;"Thursday";0;"rural";6;"0";"fog";"low";30.0;"medium";"overspeeding";"minor";4;4;0;"No Festival";0.45
+264;"Kolkata";"West Bengal";22.494643;88.492238;"2024-02-24";"17:00:00";17;"Saturday";1;"highway";6;"1";"clear";"high";21.0;"medium";"weather";"minor";4;2;1;"No Festival";0.25
+265;"Chandigarh";"Punjab";30.734981;76.773993;"2024-09-07";"14:00:00";14;"Saturday";1;"highway";4;"1";"rain";"medium";20.0;"low";"distraction";"minor";5;1;0;"No Festival";0.25
+266;"Chandigarh";"Punjab";30.711487;76.846221;"2023-11-27";"00:00:00";0;"Monday";0;"rural";3;"1";"clear";"high";25.0;"high";"distraction";"fatal";4;4;0;"No Festival";0.5
+267;"Chennai";"Tamil Nadu";12.968853;80.196115;"2024-10-15";"01:00:00";1;"Tuesday";0;"urban";3;"0";"fog";"low";30.0;"low";"poor road";"major";3;3;0;"No Festival";0.45
+268;"Kolkata";"West Bengal";22.63079;88.274384;"2023-03-20";"20:00:00";20;"Monday";0;"highway";4;"1";"fog";"low";31.0;"medium";"poor road";"major";4;2;0;"No Festival";0.45
+269;"Chandigarh";"Punjab";30.671217;76.878695;"2025-02-12";"17:00:00";17;"Wednesday";0;"rural";3;"0";"fog";"low";34.0;"high";"poor road";"minor";3;3;1;"No Festival";0.8
+270;"Bangalore";"Karnataka";12.933538;77.737824;"2025-01-04";"18:00:00";18;"Saturday";1;"rural";5;"0";"clear";"high";16.0;"medium";"overspeeding";"minor";3;3;1;"No Festival";0.25
+271;"Bangalore";"Karnataka";12.934971;77.501295;"2024-07-23";"03:00:00";3;"Tuesday";0;"urban";6;"0";"rain";"low";35.0;"low";"overspeeding";"fatal";3;3;0;"No Festival";0.65
+272;"Bangalore";"Karnataka";13.088481;77.401871;"2023-03-17";"22:00:00";22;"Friday";0;"highway";4;"0";"rain";"low";32.0;"medium";"overspeeding";"fatal";4;4;0;"No Festival";0.65
+273;"Chennai";"Tamil Nadu";13.032356;80.200645;"2022-06-01";"13:00:00";13;"Wednesday";0;"urban";4;"0";"clear";"high";24.0;"low";"drunk driving";"minor";4;2;0;"No Festival";0.1
+274;"Pune";"Maharashtra";18.685749;73.854341;"2024-04-08";"21:00:00";21;"Monday";0;"rural";2;"0";"fog";"low";32.0;"low";"poor road";"major";2;1;0;"No Festival";0.45
+275;"Chandigarh";"Punjab";30.600709;76.788381;"2023-04-12";"17:00:00";17;"Wednesday";0;"rural";2;"1";"fog";"low";29.0;"high";"distraction";"minor";2;2;1;"No Festival";0.8
+276;"Chennai";"Tamil Nadu";12.865666;80.225481;"2023-12-06";"02:00:00";2;"Wednesday";0;"rural";1;"1";"rain";"low";30.0;"low";"weather";"minor";5;3;0;"No Festival";0.45
+277;"Chennai";"Tamil Nadu";13.125687;80.288644;"2022-04-07";"14:00:00";14;"Thursday";0;"urban";5;"0";"fog";"low";19.0;"high";"weather";"major";1;0;0;"No Festival";0.65
+278;"Chandigarh";"Punjab";30.615981;76.703249;"2023-10-07";"01:00:00";1;"Saturday";1;"rural";3;"1";"rain";"low";30.0;"low";"distraction";"fatal";3;3;0;"No Festival";0.65
+279;"Kolkata";"West Bengal";22.449438;88.268509;"2023-05-14";"20:00:00";20;"Sunday";1;"highway";4;"0";"fog";"low";27.0;"medium";"drunk driving";"major";3;3;0;"No Festival";0.45
+280;"Bangalore";"Karnataka";12.906665;77.751883;"2024-07-10";"05:00:00";5;"Wednesday";0;"highway";6;"1";"fog";"low";36.0;"low";"overspeeding";"minor";2;2;0;"No Festival";0.45
+281;"Bangalore";"Karnataka";12.854596;77.734873;"2023-04-08";"09:00:00";9;"Saturday";1;"highway";4;"1";"fog";"low";30.0;"medium";"poor road";"minor";4;2;1;"No Festival";0.6
+282;"Hyderabad";"Telangana";17.453228;78.354267;"2023-03-18";"09:00:00";9;"Saturday";1;"urban";3;"0";"rain";"low";30.0;"high";"overspeeding";"major";4;1;1;"No Festival";0.8
+283;"Chandigarh";"Punjab";30.689908;76.86273;"2023-05-08";"11:00:00";11;"Monday";0;"urban";1;"1";"rain";"low";16.0;"high";"drunk driving";"minor";5;4;0;"No Festival";0.65
+284;"Mumbai";"Maharashtra";18.918465;72.813324;"2024-09-11";"02:00:00";2;"Wednesday";0;"urban";6;"0";"fog";"low";33.0;"high";"distraction";"minor";4;4;0;"No Festival";0.65
+285;"Pune";"Maharashtra";18.50586;73.779004;"2023-09-14";"18:00:00";18;"Thursday";0;"highway";5;"1";"rain";"low";24.0;"medium";"weather";"major";1;1;1;"No Festival";0.6
+286;"Pune";"Maharashtra";18.432833;73.776399;"2024-02-21";"22:00:00";22;"Wednesday";0;"highway";2;"1";"rain";"medium";17.0;"high";"drunk driving";"minor";3;3;0;"No Festival";0.45
+287;"Kolkata";"West Bengal";22.542201;88.296251;"2022-07-08";"11:00:00";11;"Friday";0;"rural";5;"0";"clear";"high";15.0;"high";"poor road";"major";4;0;0;"No Festival";0.3
+288;"Delhi";"Delhi";28.656319;77.232117;"2022-12-08";"09:00:00";9;"Thursday";0;"highway";1;"0";"clear";"high";18.0;"medium";"drunk driving";"minor";4;1;1;"No Festival";0.25
+289;"Mumbai";"Maharashtra";18.87409;72.939462;"2022-12-03";"04:00:00";4;"Saturday";1;"rural";3;"1";"rain";"low";38.0;"low";"distraction";"major";2;1;0;"No Festival";0.45
+290;"Pune";"Maharashtra";18.460951;73.781916;"2023-12-03";"14:00:00";14;"Sunday";1;"highway";5;"1";"rain";"medium";34.0;"medium";"overspeeding";"minor";1;0;0;"No Festival";0.25
+291;"Mumbai";"Maharashtra";19.160639;72.885188;"2022-01-25";"10:00:00";10;"Tuesday";0;"highway";3;"1";"fog";"low";15.0;"low";"distraction";"major";4;2;1;"No Festival";0.6
+292;"Delhi";"Delhi";28.505662;76.960158;"2024-09-05";"11:00:00";11;"Thursday";0;"urban";6;"1";"fog";"low";35.0;"medium";"drunk driving";"fatal";4;4;0;"No Festival";0.65
+293;"Mumbai";"Maharashtra";18.803394;72.756475;"2024-11-11";"05:00:00";5;"Monday";0;"highway";1;"1";"rain";"medium";37.0;"medium";"poor road";"fatal";4;4;0;"No Festival";0.45
+294;"Chennai";"Tamil Nadu";13.030792;80.290558;"2023-08-10";"09:00:00";9;"Thursday";0;"rural";1;"0";"fog";"low";27.0;"medium";"distraction";"minor";1;0;1;"No Festival";0.6
+295;"Mumbai";"Maharashtra";18.922093;72.940473;"2024-09-10";"00:00:00";0;"Tuesday";0;"highway";5;"0";"fog";"low";28.0;"medium";"weather";"major";4;4;0;"No Festival";0.45
+296;"Chandigarh";"Punjab";30.632006;76.795028;"2024-10-24";"22:00:00";22;"Thursday";0;"urban";2;"0";"fog";"low";22.0;"low";"overspeeding";"minor";2;0;0;"No Festival";0.45
+297;"Mumbai";"Maharashtra";18.942286;72.710271;"2024-05-30";"16:00:00";16;"Thursday";0;"highway";5;"1";"rain";"medium";37.0;"medium";"distraction";"minor";3;2;0;"No Festival";0.25
+298;"Kolkata";"West Bengal";22.419317;88.310364;"2024-11-11";"23:00:00";23;"Monday";0;"urban";3;"0";"fog";"low";19.0;"low";"drunk driving";"major";2;1;0;"No Festival";0.45
+299;"Mumbai";"Maharashtra";19.277319;72.843699;"2022-02-05";"23:00:00";23;"Saturday";1;"rural";5;"0";"clear";"high";38.0;"high";"poor road";"minor";5;4;0;"No Festival";0.3
+300;"Chandigarh";"Punjab";30.616643;76.869914;"2022-02-06";"12:00:00";12;"Sunday";1;"urban";4;"0";"rain";"medium";31.0;"high";"overspeeding";"minor";4;2;0;"No Festival";0.45
+301;"Pune";"Maharashtra";18.513383;73.728215;"2023-06-03";"16:00:00";16;"Saturday";1;"rural";1;"1";"rain";"medium";20.0;"high";"drunk driving";"minor";2;2;0;"No Festival";0.45
+302;"Kolkata";"West Bengal";22.542294;88.440962;"2022-12-16";"09:00:00";9;"Friday";0;"rural";6;"1";"rain";"low";33.0;"medium";"poor road";"fatal";3;3;1;"No Festival";0.8
+303;"Kolkata";"West Bengal";22.578646;88.267103;"2022-04-28";"01:00:00";1;"Thursday";0;"rural";3;"1";"clear";"high";31.0;"low";"poor road";"minor";2;0;0;"No Festival";0.1
+304;"Mumbai";"Maharashtra";18.904696;72.929499;"2023-11-06";"23:00:00";23;"Monday";0;"highway";1;"0";"clear";"high";23.0;"low";"weather";"minor";3;1;0;"No Festival";0.1
+305;"Chennai";"Tamil Nadu";13.158922;80.282375;"2022-11-14";"09:00:00";9;"Monday";0;"urban";3;"1";"clear";"high";25.0;"high";"weather";"major";1;1;1;"No Festival";0.45
+306;"Chandigarh";"Punjab";30.666974;76.757047;"2023-07-30";"09:00:00";9;"Sunday";1;"highway";4;"1";"fog";"low";37.0;"high";"weather";"minor";2;0;1;"No Festival";0.8
+307;"Chandigarh";"Punjab";30.655634;76.703463;"2024-07-31";"12:00:00";12;"Wednesday";0;"urban";4;"1";"fog";"low";19.0;"medium";"drunk driving";"fatal";5;5;0;"No Festival";0.65
+308;"Bangalore";"Karnataka";13.070817;77.754253;"2024-10-09";"02:00:00";2;"Wednesday";0;"highway";6;"0";"fog";"low";17.0;"high";"overspeeding";"major";4;3;0;"No Festival";0.65
+309;"Kolkata";"West Bengal";22.617531;88.294685;"2022-11-28";"01:00:00";1;"Monday";0;"urban";2;"0";"fog";"low";21.0;"low";"drunk driving";"minor";4;3;0;"No Festival";0.45
+310;"Chandigarh";"Punjab";30.767989;76.78677;"2023-03-02";"11:00:00";11;"Thursday";0;"highway";2;"1";"clear";"high";36.0;"medium";"drunk driving";"minor";1;0;0;"No Festival";0.1
+311;"Chandigarh";"Punjab";30.751536;76.828455;"2022-04-11";"21:00:00";21;"Monday";0;"rural";3;"1";"fog";"low";22.0;"high";"weather";"minor";2;2;0;"No Festival";0.65
+312;"Chandigarh";"Punjab";30.725966;76.873965;"2024-03-24";"07:00:00";7;"Sunday";1;"rural";2;"0";"rain";"medium";20.0;"medium";"weather";"major";1;1;0;"No Festival";0.25
+313;"Hyderabad";"Telangana";17.474242;78.535552;"2023-05-16";"12:00:00";12;"Tuesday";0;"rural";1;"1";"rain";"medium";15.0;"high";"weather";"major";2;2;0;"No Festival";0.45
+314;"Chennai";"Tamil Nadu";13.087316;80.226797;"2022-04-26";"06:00:00";6;"Tuesday";0;"urban";4;"1";"fog";"low";39.0;"medium";"poor road";"major";1;0;0;"No Festival";0.45
+315;"Kolkata";"West Bengal";22.505115;88.233239;"2024-07-31";"02:00:00";2;"Wednesday";0;"highway";5;"1";"clear";"high";39.0;"low";"poor road";"minor";5;0;0;"No Festival";0.1
+316;"Mumbai";"Maharashtra";18.81774;72.773961;"2024-09-05";"22:00:00";22;"Thursday";0;"rural";1;"1";"rain";"medium";19.0;"low";"drunk driving";"major";2;2;0;"No Festival";0.25
+317;"Delhi";"Delhi";28.867743;76.854527;"2023-04-24";"07:00:00";7;"Monday";0;"rural";4;"0";"fog";"low";39.0;"medium";"weather";"fatal";1;1;0;"No Festival";0.65
+318;"Pune";"Maharashtra";18.660086;73.810194;"2022-03-22";"01:00:00";1;"Tuesday";0;"urban";2;"1";"rain";"low";20.0;"low";"drunk driving";"major";3;2;0;"No Festival";0.45
+319;"Mumbai";"Maharashtra";19.27562;72.80497;"2024-01-17";"16:00:00";16;"Wednesday";0;"rural";2;"0";"clear";"high";26.0;"medium";"poor road";"minor";3;1;0;"No Festival";0.1
+320;"Chennai";"Tamil Nadu";12.934717;80.259504;"2022-10-04";"02:00:00";2;"Tuesday";0;"highway";5;"1";"clear";"high";19.0;"high";"overspeeding";"major";3;3;0;"No Festival";0.3
+321;"Chandigarh";"Punjab";30.655311;76.714474;"2023-02-19";"15:00:00";15;"Sunday";1;"urban";3;"1";"fog";"low";26.0;"low";"overspeeding";"fatal";3;3;0;"No Festival";0.65
+322;"Bangalore";"Karnataka";12.852964;77.561684;"2022-08-15";"18:00:00";18;"Monday";0;"rural";5;"1";"fog";"low";27.0;"high";"poor road";"major";2;2;1;"No Festival";0.8
+323;"Pune";"Maharashtra";18.46926;73.979581;"2022-02-21";"18:00:00";18;"Monday";0;"highway";3;"0";"clear";"high";20.0;"high";"weather";"minor";1;0;1;"No Festival";0.45
+324;"Delhi";"Delhi";28.824805;77.267512;"2022-05-07";"16:00:00";16;"Saturday";1;"highway";6;"1";"clear";"high";34.0;"low";"overspeeding";"minor";2;0;0;"No Festival";0.1
+325;"Chennai";"Tamil Nadu";12.865026;80.224187;"2025-04-10";"21:00:00";21;"Thursday";0;"rural";3;"1";"clear";"high";17.0;"low";"weather";"minor";1;0;0;"No Festival";0.1
+326;"Kolkata";"West Bengal";22.423409;88.23046;"2023-01-30";"04:00:00";4;"Monday";0;"highway";5;"0";"clear";"high";39.0;"low";"drunk driving";"minor";2;1;0;"No Festival";0.1
+327;"Chennai";"Tamil Nadu";12.979773;80.125904;"2024-11-01";"15:00:00";15;"Friday";0;"urban";5;"1";"fog";"low";32.0;"low";"weather";"minor";1;1;0;"Diwali";0.55
+328;"Chandigarh";"Punjab";30.796737;76.773533;"2024-06-24";"14:00:00";14;"Monday";0;"rural";4;"1";"rain";"medium";31.0;"low";"weather";"major";3;3;0;"No Festival";0.25
+329;"Mumbai";"Maharashtra";19.025583;72.703921;"2022-02-27";"14:00:00";14;"Sunday";1;"rural";5;"1";"clear";"high";23.0;"medium";"weather";"minor";4;1;0;"No Festival";0.1
+330;"Pune";"Maharashtra";18.421265;73.710506;"2022-11-03";"03:00:00";3;"Thursday";0;"urban";6;"1";"fog";"low";32.0;"low";"poor road";"major";3;1;0;"No Festival";0.45
+331;"Hyderabad";"Telangana";17.510543;78.427133;"2022-08-24";"03:00:00";3;"Wednesday";0;"highway";5;"0";"fog";"low";37.0;"low";"poor road";"minor";2;2;0;"No Festival";0.45
+332;"Mumbai";"Maharashtra";19.093059;72.74776;"2023-03-06";"08:00:00";8;"Monday";0;"urban";6;"0";"fog";"low";21.0;"medium";"drunk driving";"fatal";1;1;1;"No Festival";0.8
+333;"Kolkata";"West Bengal";22.68123;88.384248;"2023-04-02";"20:00:00";20;"Sunday";1;"highway";3;"0";"clear";"high";27.0;"low";"weather";"fatal";2;2;0;"No Festival";0.3
+334;"Kolkata";"West Bengal";22.403454;88.206231;"2024-11-26";"11:00:00";11;"Tuesday";0;"urban";6;"1";"rain";"low";29.0;"low";"overspeeding";"minor";3;2;0;"No Festival";0.45
+335;"Pune";"Maharashtra";18.580848;73.876593;"2024-05-11";"21:00:00";21;"Saturday";1;"rural";2;"0";"clear";"high";38.0;"low";"weather";"minor";5;5;0;"No Festival";0.1
+336;"Pune";"Maharashtra";18.404333;73.812579;"2024-07-09";"22:00:00";22;"Tuesday";0;"highway";2;"1";"clear";"high";27.0;"high";"distraction";"major";5;4;0;"No Festival";0.3
+337;"Pune";"Maharashtra";18.612059;73.719751;"2024-12-10";"03:00:00";3;"Tuesday";0;"rural";6;"1";"fog";"low";27.0;"low";"weather";"minor";5;2;0;"No Festival";0.45
+338;"Pune";"Maharashtra";18.464387;73.94994;"2022-02-03";"11:00:00";11;"Thursday";0;"urban";1;"1";"rain";"low";30.0;"medium";"poor road";"major";2;0;0;"No Festival";0.45
+339;"Bangalore";"Karnataka";13.130325;77.446646;"2023-02-06";"09:00:00";9;"Monday";0;"urban";5;"1";"fog";"low";21.0;"medium";"poor road";"minor";2;1;1;"No Festival";0.6
+340;"Hyderabad";"Telangana";17.269165;78.502459;"2023-09-04";"20:00:00";20;"Monday";0;"urban";3;"1";"fog";"low";22.0;"medium";"overspeeding";"major";1;1;0;"No Festival";0.45
+341;"Pune";"Maharashtra";18.623789;73.873265;"2022-01-31";"18:00:00";18;"Monday";0;"rural";5;"0";"fog";"low";20.0;"medium";"poor road";"minor";5;3;1;"No Festival";0.6
+342;"Hyderabad";"Telangana";17.527114;78.530469;"2022-01-02";"21:00:00";21;"Sunday";1;"rural";4;"0";"clear";"high";30.0;"low";"drunk driving";"minor";3;1;0;"No Festival";0.1
+343;"Delhi";"Delhi";28.743818;77.084342;"2024-06-14";"15:00:00";15;"Friday";0;"urban";3;"0";"rain";"low";28.0;"medium";"drunk driving";"major";4;4;0;"No Festival";0.45
+344;"Delhi";"Delhi";28.650713;76.817058;"2024-02-25";"09:00:00";9;"Sunday";1;"rural";6;"1";"rain";"medium";25.0;"high";"drunk driving";"minor";4;0;1;"No Festival";0.6
+345;"Chandigarh";"Punjab";30.658244;76.853188;"2024-06-24";"15:00:00";15;"Monday";0;"urban";6;"1";"fog";"low";39.0;"high";"distraction";"minor";4;0;0;"No Festival";0.65
+346;"Kolkata";"West Bengal";22.624284;88.344232;"2024-03-25";"11:00:00";11;"Monday";0;"rural";3;"0";"fog";"low";27.0;"low";"drunk driving";"fatal";4;4;0;"Holi";0.75
+347;"Pune";"Maharashtra";18.409953;73.994189;"2024-07-21";"12:00:00";12;"Sunday";1;"rural";2;"1";"rain";"medium";17.0;"medium";"distraction";"minor";3;2;0;"No Festival";0.25
+348;"Pune";"Maharashtra";18.65561;73.751185;"2023-01-14";"08:00:00";8;"Saturday";1;"highway";2;"0";"fog";"low";25.0;"medium";"drunk driving";"minor";1;1;1;"No Festival";0.6
+349;"Chennai";"Tamil Nadu";12.880956;80.246202;"2025-03-21";"19:00:00";19;"Friday";0;"urban";4;"0";"fog";"low";26.0;"medium";"weather";"fatal";1;1;1;"No Festival";0.8
+350;"Kolkata";"West Bengal";22.460049;88.33137;"2025-02-01";"01:00:00";1;"Saturday";1;"urban";3;"0";"rain";"low";22.0;"high";"drunk driving";"minor";1;1;0;"No Festival";0.65
+351;"Delhi";"Delhi";28.819006;76.807353;"2025-01-19";"00:00:00";0;"Sunday";1;"highway";4;"0";"rain";"low";30.0;"low";"poor road";"minor";2;0;0;"No Festival";0.45
+352;"Hyderabad";"Telangana";17.441486;78.243836;"2023-03-01";"15:00:00";15;"Wednesday";0;"highway";1;"1";"rain";"medium";40.0;"low";"overspeeding";"minor";3;0;0;"No Festival";0.25
+353;"Bangalore";"Karnataka";13.071506;77.582699;"2023-10-09";"19:00:00";19;"Monday";0;"rural";3;"0";"clear";"high";30.0;"medium";"poor road";"fatal";4;4;1;"No Festival";0.45
+354;"Chandigarh";"Punjab";30.711408;76.707882;"2025-02-16";"13:00:00";13;"Sunday";1;"rural";5;"0";"clear";"high";18.0;"low";"weather";"minor";5;3;0;"No Festival";0.1
+355;"Chennai";"Tamil Nadu";12.952895;80.171875;"2025-01-17";"19:00:00";19;"Friday";0;"rural";1;"1";"rain";"medium";22.0;"medium";"distraction";"minor";5;3;1;"No Festival";0.4
+356;"Hyderabad";"Telangana";17.462352;78.560305;"2022-09-14";"10:00:00";10;"Wednesday";0;"urban";4;"0";"clear";"high";28.0;"high";"distraction";"major";5;5;1;"No Festival";0.45
+357;"Delhi";"Delhi";28.4982;77.020293;"2024-10-27";"15:00:00";15;"Sunday";1;"urban";4;"1";"rain";"low";37.0;"high";"weather";"minor";5;5;0;"No Festival";0.65
+358;"Delhi";"Delhi";28.89123;77.289334;"2024-02-03";"07:00:00";7;"Saturday";1;"urban";1;"1";"clear";"high";25.0;"medium";"overspeeding";"minor";5;1;0;"No Festival";0.1
+359;"Chandigarh";"Punjab";30.673074;76.772135;"2023-01-06";"18:00:00";18;"Friday";0;"highway";5;"1";"rain";"low";22.0;"high";"distraction";"major";3;0;1;"No Festival";0.8
+360;"Kolkata";"West Bengal";22.574229;88.208361;"2024-08-06";"13:00:00";13;"Tuesday";0;"highway";1;"0";"fog";"low";38.0;"high";"poor road";"major";4;3;0;"No Festival";0.65
+361;"Mumbai";"Maharashtra";19.206387;72.76094;"2024-10-14";"19:00:00";19;"Monday";0;"rural";3;"1";"clear";"high";38.0;"medium";"distraction";"major";5;1;1;"No Festival";0.25
+362;"Chennai";"Tamil Nadu";12.987532;80.20733;"2023-09-26";"07:00:00";7;"Tuesday";0;"highway";3;"1";"rain";"medium";28.0;"high";"poor road";"major";1;1;0;"No Festival";0.45
+363;"Chennai";"Tamil Nadu";13.147207;80.153679;"2023-03-13";"06:00:00";6;"Monday";0;"highway";1;"1";"rain";"medium";23.0;"high";"weather";"minor";4;0;0;"No Festival";0.45
+364;"Kolkata";"West Bengal";22.464831;88.413777;"2022-06-18";"15:00:00";15;"Saturday";1;"rural";3;"0";"fog";"low";27.0;"medium";"distraction";"major";4;0;0;"No Festival";0.45
+365;"Chandigarh";"Punjab";30.701537;76.755897;"2023-01-08";"14:00:00";14;"Sunday";1;"urban";1;"1";"clear";"high";25.0;"low";"distraction";"minor";1;1;0;"No Festival";0.1
+366;"Chennai";"Tamil Nadu";13.114273;80.249777;"2022-08-28";"20:00:00";20;"Sunday";1;"urban";5;"0";"clear";"high";40.0;"low";"overspeeding";"major";3;1;0;"No Festival";0.1
+367;"Kolkata";"West Bengal";22.415844;88.203608;"2022-08-11";"17:00:00";17;"Thursday";0;"urban";1;"1";"fog";"low";17.0;"high";"overspeeding";"minor";5;1;1;"No Festival";0.8
+368;"Bangalore";"Karnataka";13.028376;77.625565;"2023-06-19";"18:00:00";18;"Monday";0;"highway";1;"0";"fog";"low";39.0;"high";"drunk driving";"major";4;0;1;"No Festival";0.8
+369;"Chandigarh";"Punjab";30.789743;76.765097;"2024-08-14";"13:00:00";13;"Wednesday";0;"rural";1;"1";"fog";"low";27.0;"high";"poor road";"major";1;0;0;"No Festival";0.65
+370;"Pune";"Maharashtra";18.47126;73.729648;"2022-09-01";"01:00:00";1;"Thursday";0;"urban";3;"1";"fog";"low";29.0;"low";"weather";"minor";3;0;0;"No Festival";0.45
+371;"Chandigarh";"Punjab";30.674064;76.776373;"2022-04-05";"21:00:00";21;"Tuesday";0;"rural";5;"1";"rain";"medium";39.0;"low";"weather";"minor";2;0;0;"No Festival";0.25
+372;"Delhi";"Delhi";28.654726;76.86286;"2023-07-06";"02:00:00";2;"Thursday";0;"urban";2;"0";"clear";"high";21.0;"medium";"distraction";"major";1;0;0;"No Festival";0.1
+373;"Delhi";"Delhi";28.544843;76.914438;"2024-02-25";"19:00:00";19;"Sunday";1;"urban";2;"1";"clear";"high";33.0;"medium";"overspeeding";"major";5;3;1;"No Festival";0.25
+374;"Mumbai";"Maharashtra";19.057954;72.75712;"2023-04-13";"02:00:00";2;"Thursday";0;"rural";5;"1";"fog";"low";28.0;"low";"overspeeding";"minor";4;0;0;"No Festival";0.45
+375;"Hyderabad";"Telangana";17.465522;78.468433;"2024-01-25";"11:00:00";11;"Thursday";0;"urban";4;"1";"fog";"low";37.0;"high";"distraction";"major";3;2;0;"No Festival";0.65
+376;"Bangalore";"Karnataka";12.947882;77.70417;"2023-05-28";"20:00:00";20;"Sunday";1;"rural";2;"0";"clear";"high";27.0;"high";"poor road";"minor";5;5;0;"No Festival";0.3
+377;"Chennai";"Tamil Nadu";13.15716;80.108805;"2025-03-19";"14:00:00";14;"Wednesday";0;"urban";6;"1";"rain";"low";25.0;"high";"drunk driving";"minor";3;0;0;"No Festival";0.65
+378;"Mumbai";"Maharashtra";19.288226;72.925037;"2022-12-20";"08:00:00";8;"Tuesday";0;"urban";4;"1";"clear";"high";20.0;"high";"poor road";"major";3;1;1;"No Festival";0.45
+379;"Mumbai";"Maharashtra";19.163928;72.942826;"2023-03-16";"22:00:00";22;"Thursday";0;"urban";4;"0";"clear";"high";34.0;"medium";"overspeeding";"minor";4;2;0;"No Festival";0.1
+380;"Mumbai";"Maharashtra";19.204154;72.754614;"2023-11-20";"23:00:00";23;"Monday";0;"highway";6;"1";"fog";"low";29.0;"high";"overspeeding";"major";1;0;0;"No Festival";0.65
+381;"Pune";"Maharashtra";18.545375;73.814203;"2024-08-29";"23:00:00";23;"Thursday";0;"highway";4;"1";"fog";"low";34.0;"high";"poor road";"fatal";5;5;0;"No Festival";0.85
+382;"Kolkata";"West Bengal";22.681957;88.304039;"2022-06-09";"17:00:00";17;"Thursday";0;"highway";5;"1";"rain";"medium";31.0;"high";"poor road";"fatal";3;3;1;"No Festival";0.8
+383;"Chennai";"Tamil Nadu";13.144941;80.121944;"2023-09-28";"04:00:00";4;"Thursday";0;"highway";4;"0";"fog";"low";16.0;"low";"drunk driving";"minor";5;2;0;"No Festival";0.45
+384;"Pune";"Maharashtra";18.559774;73.884165;"2024-10-23";"14:00:00";14;"Wednesday";0;"highway";1;"0";"fog";"low";28.0;"high";"overspeeding";"minor";1;1;0;"No Festival";0.65
+385;"Hyderabad";"Telangana";17.429285;78.462174;"2024-11-21";"14:00:00";14;"Thursday";0;"highway";1;"1";"clear";"high";20.0;"low";"poor road";"major";4;0;0;"No Festival";0.1
+386;"Hyderabad";"Telangana";17.51022;78.320229;"2023-09-05";"10:00:00";10;"Tuesday";0;"urban";6;"1";"clear";"high";39.0;"high";"poor road";"minor";5;4;1;"No Festival";0.45
+387;"Pune";"Maharashtra";18.533183;73.792839;"2022-06-20";"15:00:00";15;"Monday";0;"rural";4;"1";"rain";"medium";19.0;"medium";"overspeeding";"minor";2;0;0;"No Festival";0.25
+388;"Chennai";"Tamil Nadu";12.910369;80.297392;"2024-09-21";"06:00:00";6;"Saturday";1;"urban";4;"1";"clear";"high";23.0;"high";"overspeeding";"major";1;1;0;"No Festival";0.3
+389;"Bangalore";"Karnataka";13.085418;77.731694;"2023-03-24";"08:00:00";8;"Friday";0;"urban";6;"0";"clear";"high";27.0;"high";"drunk driving";"major";5;5;1;"No Festival";0.45
+390;"Mumbai";"Maharashtra";19.25538;72.982083;"2022-09-18";"08:00:00";8;"Sunday";1;"urban";6;"0";"rain";"medium";18.0;"high";"overspeeding";"minor";3;3;1;"No Festival";0.6
+391;"Delhi";"Delhi";28.896351;76.909336;"2022-06-19";"11:00:00";11;"Sunday";1;"highway";4;"0";"fog";"low";18.0;"medium";"poor road";"minor";2;1;0;"No Festival";0.45
+392;"Bangalore";"Karnataka";13.018995;77.767071;"2024-10-30";"01:00:00";1;"Wednesday";0;"urban";6;"0";"fog";"low";27.0;"low";"poor road";"minor";5;0;0;"No Festival";0.45
+393;"Delhi";"Delhi";28.534511;76.998304;"2024-12-29";"10:00:00";10;"Sunday";1;"rural";6;"0";"fog";"low";33.0;"high";"distraction";"major";2;1;1;"No Festival";0.8
+394;"Chandigarh";"Punjab";30.747416;76.743713;"2022-05-06";"08:00:00";8;"Friday";0;"rural";2;"0";"clear";"high";38.0;"high";"weather";"fatal";5;5;1;"No Festival";0.65
+395;"Chennai";"Tamil Nadu";13.193579;80.177155;"2024-03-01";"06:00:00";6;"Friday";0;"urban";2;"0";"clear";"high";36.0;"high";"weather";"major";4;3;0;"No Festival";0.3
+396;"Bangalore";"Karnataka";13.155137;77.476742;"2025-03-12";"05:00:00";5;"Wednesday";0;"highway";6;"1";"fog";"low";37.0;"medium";"weather";"minor";3;0;0;"No Festival";0.45
+397;"Kolkata";"West Bengal";22.555692;88.47553;"2023-05-23";"21:00:00";21;"Tuesday";0;"rural";4;"0";"rain";"low";40.0;"medium";"drunk driving";"fatal";5;5;0;"No Festival";0.65
+398;"Kolkata";"West Bengal";22.410099;88.480776;"2023-02-27";"21:00:00";21;"Monday";0;"highway";1;"1";"fog";"low";23.0;"medium";"poor road";"minor";4;3;0;"No Festival";0.45
+399;"Kolkata";"West Bengal";22.450379;88.232242;"2022-05-22";"08:00:00";8;"Sunday";1;"rural";2;"0";"clear";"high";34.0;"high";"overspeeding";"minor";5;3;1;"No Festival";0.45
+400;"Mumbai";"Maharashtra";19.228611;72.742829;"2023-05-13";"16:00:00";16;"Saturday";1;"highway";4;"1";"rain";"medium";20.0;"medium";"weather";"fatal";1;1;0;"No Festival";0.45
+401;"Delhi";"Delhi";28.607136;76.809087;"2023-03-16";"20:00:00";20;"Thursday";0;"urban";1;"1";"rain";"low";24.0;"medium";"distraction";"minor";3;3;0;"No Festival";0.45
+402;"Mumbai";"Maharashtra";19.190948;72.77105;"2024-03-20";"17:00:00";17;"Wednesday";0;"urban";2;"1";"clear";"high";31.0;"high";"poor road";"minor";3;2;1;"No Festival";0.45
+403;"Pune";"Maharashtra";18.448526;73.79873;"2024-03-27";"22:00:00";22;"Wednesday";0;"rural";4;"1";"fog";"low";27.0;"high";"drunk driving";"fatal";2;2;0;"No Festival";0.85
+404;"Kolkata";"West Bengal";22.626785;88.286183;"2022-11-19";"07:00:00";7;"Saturday";1;"highway";1;"0";"rain";"low";26.0;"high";"poor road";"minor";3;0;0;"No Festival";0.65
+405;"Hyderabad";"Telangana";17.469867;78.205519;"2022-03-25";"04:00:00";4;"Friday";0;"highway";1;"1";"clear";"high";32.0;"low";"distraction";"minor";1;0;0;"No Festival";0.1
+406;"Hyderabad";"Telangana";17.266396;78.569623;"2024-05-15";"06:00:00";6;"Wednesday";0;"highway";5;"1";"fog";"low";28.0;"high";"weather";"major";5;2;0;"No Festival";0.65
+407;"Pune";"Maharashtra";18.546225;73.940637;"2023-05-27";"12:00:00";12;"Saturday";1;"highway";6;"1";"fog";"low";32.0;"low";"overspeeding";"minor";3;3;0;"No Festival";0.45
+408;"Bangalore";"Karnataka";13.168031;77.626681;"2022-07-09";"19:00:00";19;"Saturday";1;"highway";5;"0";"fog";"low";15.0;"low";"weather";"major";2;1;1;"No Festival";0.6
+409;"Hyderabad";"Telangana";17.380814;78.527045;"2022-08-22";"10:00:00";10;"Monday";0;"highway";4;"0";"fog";"low";35.0;"medium";"distraction";"minor";2;2;1;"No Festival";0.6
+410;"Mumbai";"Maharashtra";19.147308;72.717022;"2023-05-23";"06:00:00";6;"Tuesday";0;"highway";2;"0";"clear";"high";28.0;"low";"drunk driving";"minor";5;1;0;"No Festival";0.1
+411;"Hyderabad";"Telangana";17.218976;78.371587;"2023-07-01";"01:00:00";1;"Saturday";1;"rural";3;"0";"clear";"high";28.0;"high";"weather";"minor";3;0;0;"No Festival";0.3
+412;"Delhi";"Delhi";28.857196;76.867687;"2023-11-14";"07:00:00";7;"Tuesday";0;"urban";5;"1";"rain";"low";33.0;"low";"distraction";"major";2;2;0;"No Festival";0.45
+413;"Hyderabad";"Telangana";17.271903;78.256815;"2022-03-15";"03:00:00";3;"Tuesday";0;"rural";2;"1";"clear";"high";40.0;"low";"drunk driving";"fatal";3;3;0;"No Festival";0.3
+414;"Delhi";"Delhi";28.764338;77.016944;"2024-11-23";"18:00:00";18;"Saturday";1;"urban";4;"1";"fog";"low";20.0;"high";"drunk driving";"minor";5;0;1;"No Festival";0.8
+415;"Hyderabad";"Telangana";17.501854;78.288515;"2022-03-02";"18:00:00";18;"Wednesday";0;"rural";3;"1";"fog";"low";31.0;"high";"weather";"minor";2;0;1;"No Festival";0.8
+416;"Hyderabad";"Telangana";17.28964;78.564883;"2022-07-24";"00:00:00";0;"Sunday";1;"urban";6;"1";"rain";"medium";26.0;"low";"drunk driving";"fatal";2;2;0;"No Festival";0.45
+417;"Kolkata";"West Bengal";22.566676;88.461604;"2022-02-20";"19:00:00";19;"Sunday";1;"highway";4;"0";"rain";"medium";18.0;"high";"distraction";"minor";5;5;1;"No Festival";0.6
+418;"Chandigarh";"Punjab";30.713438;76.79876;"2024-05-14";"17:00:00";17;"Tuesday";0;"highway";3;"1";"clear";"high";25.0;"high";"overspeeding";"minor";5;2;1;"No Festival";0.45
+419;"Delhi";"Delhi";28.67054;77.161424;"2023-06-14";"16:00:00";16;"Wednesday";0;"urban";3;"1";"fog";"low";25.0;"low";"drunk driving";"minor";3;1;0;"No Festival";0.45
+420;"Bangalore";"Karnataka";12.917963;77.412591;"2022-05-30";"05:00:00";5;"Monday";0;"rural";5;"0";"fog";"low";21.0;"high";"distraction";"major";5;0;0;"No Festival";0.65
+421;"Hyderabad";"Telangana";17.434443;78.569551;"2024-03-15";"00:00:00";0;"Friday";0;"highway";4;"1";"rain";"medium";16.0;"low";"overspeeding";"minor";5;5;0;"No Festival";0.25
+422;"Chennai";"Tamil Nadu";12.808568;80.17975;"2023-11-10";"16:00:00";16;"Friday";0;"urban";5;"1";"clear";"high";22.0;"medium";"distraction";"minor";3;3;0;"No Festival";0.1
+423;"Chennai";"Tamil Nadu";13.171356;80.145615;"2022-09-09";"05:00:00";5;"Friday";0;"rural";5;"1";"clear";"high";40.0;"low";"distraction";"minor";5;3;0;"No Festival";0.1
+424;"Hyderabad";"Telangana";17.257354;78.220547;"2022-07-08";"10:00:00";10;"Friday";0;"urban";4;"1";"rain";"medium";30.0;"high";"poor road";"minor";2;2;1;"No Festival";0.6
+425;"Chennai";"Tamil Nadu";13.087089;80.113956;"2023-04-18";"09:00:00";9;"Tuesday";0;"urban";3;"1";"rain";"medium";38.0;"high";"distraction";"minor";4;3;1;"No Festival";0.6
+426;"Mumbai";"Maharashtra";18.927409;72.753023;"2024-07-02";"05:00:00";5;"Tuesday";0;"urban";1;"1";"rain";"low";18.0;"medium";"poor road";"major";2;1;0;"No Festival";0.45
+427;"Delhi";"Delhi";28.608507;77.020263;"2022-07-12";"13:00:00";13;"Tuesday";0;"highway";6;"0";"rain";"low";37.0;"medium";"distraction";"minor";4;0;0;"No Festival";0.45
+428;"Chandigarh";"Punjab";30.794258;76.895012;"2023-09-23";"16:00:00";16;"Saturday";1;"highway";2;"0";"rain";"low";17.0;"medium";"overspeeding";"minor";1;0;0;"No Festival";0.45
+429;"Pune";"Maharashtra";18.41447;73.723653;"2024-05-26";"01:00:00";1;"Sunday";1;"urban";1;"1";"rain";"medium";33.0;"medium";"weather";"major";2;1;0;"No Festival";0.25
+430;"Chandigarh";"Punjab";30.693733;76.792933;"2022-12-16";"12:00:00";12;"Friday";0;"rural";1;"0";"rain";"low";34.0;"high";"overspeeding";"minor";4;1;0;"No Festival";0.65
+431;"Pune";"Maharashtra";18.637455;73.895355;"2024-08-01";"15:00:00";15;"Thursday";0;"highway";4;"0";"rain";"medium";32.0;"low";"poor road";"minor";5;3;0;"No Festival";0.25
+432;"Chennai";"Tamil Nadu";12.994972;80.274334;"2022-11-03";"01:00:00";1;"Thursday";0;"highway";1;"0";"clear";"high";23.0;"medium";"weather";"major";1;0;0;"No Festival";0.1
+433;"Kolkata";"West Bengal";22.602764;88.310036;"2023-02-03";"13:00:00";13;"Friday";0;"rural";1;"1";"rain";"medium";31.0;"high";"overspeeding";"major";3;2;0;"No Festival";0.45
+434;"Chennai";"Tamil Nadu";12.822978;80.147682;"2022-11-03";"01:00:00";1;"Thursday";0;"rural";1;"0";"rain";"low";15.0;"medium";"distraction";"minor";5;4;0;"No Festival";0.45
+435;"Pune";"Maharashtra";18.638974;73.854621;"2025-04-14";"07:00:00";7;"Monday";0;"rural";6;"1";"fog";"low";23.0;"low";"drunk driving";"minor";3;0;0;"No Festival";0.45
+436;"Bangalore";"Karnataka";12.918688;77.421483;"2023-11-29";"14:00:00";14;"Wednesday";0;"highway";3;"0";"clear";"high";22.0;"high";"drunk driving";"minor";1;1;0;"No Festival";0.3
+437;"Mumbai";"Maharashtra";19.292175;72.961276;"2024-10-12";"20:00:00";20;"Saturday";1;"rural";2;"0";"rain";"medium";37.0;"medium";"distraction";"minor";2;0;0;"No Festival";0.25
+438;"Kolkata";"West Bengal";22.472822;88.343699;"2022-03-08";"12:00:00";12;"Tuesday";0;"urban";4;"1";"rain";"medium";22.0;"low";"weather";"major";5;2;0;"No Festival";0.25
+439;"Chandigarh";"Punjab";30.606795;76.809552;"2023-09-14";"17:00:00";17;"Thursday";0;"highway";4;"1";"rain";"medium";38.0;"high";"overspeeding";"fatal";2;2;1;"No Festival";0.8
+440;"Pune";"Maharashtra";18.564599;73.799979;"2023-02-02";"20:00:00";20;"Thursday";0;"urban";2;"0";"clear";"high";24.0;"low";"weather";"minor";5;0;0;"No Festival";0.1
+441;"Kolkata";"West Bengal";22.4837;88.332035;"2022-02-11";"20:00:00";20;"Friday";0;"highway";4;"1";"clear";"high";17.0;"medium";"overspeeding";"major";2;2;0;"No Festival";0.1
+442;"Chandigarh";"Punjab";30.653134;76.792216;"2023-12-02";"22:00:00";22;"Saturday";1;"highway";3;"0";"clear";"high";15.0;"high";"poor road";"major";4;2;0;"No Festival";0.3
+443;"Chandigarh";"Punjab";30.753571;76.72288;"2022-09-22";"03:00:00";3;"Thursday";0;"rural";2;"0";"fog";"low";34.0;"low";"poor road";"major";5;5;0;"No Festival";0.45
+444;"Kolkata";"West Bengal";22.582338;88.4844;"2024-08-28";"18:00:00";18;"Wednesday";0;"urban";6;"1";"rain";"low";24.0;"high";"overspeeding";"minor";2;1;1;"No Festival";0.8
+445;"Chandigarh";"Punjab";30.647499;76.822427;"2025-03-20";"18:00:00";18;"Thursday";0;"urban";2;"0";"fog";"low";25.0;"high";"drunk driving";"fatal";2;2;1;"No Festival";1.0
+446;"Chennai";"Tamil Nadu";12.929043;80.164165;"2023-05-28";"00:00:00";0;"Sunday";1;"rural";6;"1";"fog";"low";25.0;"low";"distraction";"minor";5;3;0;"No Festival";0.45
+447;"Delhi";"Delhi";28.673621;77.237897;"2025-03-09";"14:00:00";14;"Sunday";1;"highway";2;"0";"rain";"low";20.0;"high";"distraction";"minor";5;4;0;"No Festival";0.65
+448;"Mumbai";"Maharashtra";19.183549;72.70002;"2022-10-20";"17:00:00";17;"Thursday";0;"rural";3;"0";"fog";"low";15.0;"high";"drunk driving";"minor";1;0;1;"No Festival";0.8
+449;"Chandigarh";"Punjab";30.736718;76.770756;"2022-05-25";"07:00:00";7;"Wednesday";0;"highway";1;"0";"rain";"medium";33.0;"high";"overspeeding";"minor";4;3;0;"No Festival";0.45
+450;"Kolkata";"West Bengal";22.44045;88.280446;"2024-05-19";"22:00:00";22;"Sunday";1;"rural";3;"1";"fog";"low";40.0;"low";"drunk driving";"minor";3;0;0;"No Festival";0.45
+451;"Bangalore";"Karnataka";13.001226;77.503201;"2024-10-26";"13:00:00";13;"Saturday";1;"rural";1;"0";"fog";"low";32.0;"medium";"weather";"minor";2;0;0;"No Festival";0.45
+452;"Pune";"Maharashtra";18.672465;73.966679;"2022-11-23";"19:00:00";19;"Wednesday";0;"rural";6;"1";"rain";"medium";33.0;"high";"overspeeding";"minor";5;2;1;"No Festival";0.6
+453;"Delhi";"Delhi";28.682106;77.222227;"2023-04-13";"15:00:00";15;"Thursday";0;"urban";4;"1";"rain";"low";17.0;"low";"weather";"minor";3;3;0;"No Festival";0.45
+454;"Mumbai";"Maharashtra";18.901696;72.9801;"2023-01-20";"16:00:00";16;"Friday";0;"highway";5;"1";"fog";"low";19.0;"low";"overspeeding";"minor";2;1;0;"No Festival";0.45
+455;"Chennai";"Tamil Nadu";12.873824;80.12014;"2024-02-12";"02:00:00";2;"Monday";0;"urban";6;"0";"clear";"high";38.0;"low";"distraction";"minor";3;2;0;"No Festival";0.1
+456;"Chennai";"Tamil Nadu";13.125771;80.140205;"2022-02-09";"23:00:00";23;"Wednesday";0;"urban";4;"1";"rain";"medium";15.0;"low";"weather";"minor";3;3;0;"No Festival";0.25
+457;"Chandigarh";"Punjab";30.719993;76.763111;"2023-08-06";"21:00:00";21;"Sunday";1;"highway";1;"1";"rain";"low";20.0;"medium";"distraction";"minor";5;0;0;"No Festival";0.45
+458;"Bangalore";"Karnataka";12.893807;77.446713;"2024-12-20";"00:00:00";0;"Friday";0;"rural";6;"1";"fog";"low";38.0;"low";"weather";"minor";1;1;0;"No Festival";0.45
+459;"Chandigarh";"Punjab";30.750424;76.750608;"2024-12-17";"02:00:00";2;"Tuesday";0;"rural";3;"1";"clear";"high";21.0;"low";"overspeeding";"major";2;1;0;"No Festival";0.1
+460;"Bangalore";"Karnataka";13.010762;77.565505;"2024-01-24";"11:00:00";11;"Wednesday";0;"highway";1;"0";"rain";"low";38.0;"medium";"distraction";"minor";1;0;0;"No Festival";0.45
+461;"Mumbai";"Maharashtra";19.1689;72.924685;"2024-12-01";"18:00:00";18;"Sunday";1;"rural";1;"0";"clear";"high";22.0;"medium";"distraction";"minor";1;0;1;"No Festival";0.25
+462;"Kolkata";"West Bengal";22.613843;88.254254;"2024-09-01";"03:00:00";3;"Sunday";1;"rural";3;"1";"clear";"high";40.0;"low";"drunk driving";"minor";4;4;0;"No Festival";0.1
+463;"Kolkata";"West Bengal";22.565839;88.272514;"2022-11-14";"11:00:00";11;"Monday";0;"highway";5;"0";"rain";"medium";15.0;"low";"drunk driving";"major";2;2;0;"No Festival";0.25
+464;"Chennai";"Tamil Nadu";13.109903;80.151201;"2022-03-29";"19:00:00";19;"Tuesday";0;"rural";6;"0";"rain";"medium";21.0;"high";"overspeeding";"minor";1;1;1;"No Festival";0.6
+465;"Pune";"Maharashtra";18.521858;73.880555;"2022-08-05";"15:00:00";15;"Friday";0;"rural";5;"1";"clear";"high";18.0;"medium";"poor road";"minor";4;3;0;"No Festival";0.1
+466;"Kolkata";"West Bengal";22.564509;88.414116;"2022-10-17";"12:00:00";12;"Monday";0;"rural";3;"0";"clear";"high";19.0;"low";"poor road";"major";4;3;0;"No Festival";0.1
+467;"Hyderabad";"Telangana";17.264223;78.582497;"2024-02-24";"23:00:00";23;"Saturday";1;"urban";6;"1";"fog";"low";20.0;"medium";"weather";"major";3;2;0;"No Festival";0.45
+468;"Kolkata";"West Bengal";22.559989;88.4151;"2024-10-18";"12:00:00";12;"Friday";0;"urban";1;"1";"rain";"medium";27.0;"low";"weather";"minor";3;3;0;"No Festival";0.25
+469;"Chennai";"Tamil Nadu";12.988869;80.247665;"2023-11-21";"20:00:00";20;"Tuesday";0;"urban";4;"0";"fog";"low";24.0;"medium";"distraction";"fatal";5;5;0;"No Festival";0.65
+470;"Chandigarh";"Punjab";30.738182;76.71504;"2023-10-05";"18:00:00";18;"Thursday";0;"rural";1;"1";"rain";"low";32.0;"high";"drunk driving";"fatal";2;2;1;"No Festival";1.0
+471;"Hyderabad";"Telangana";17.581124;78.474942;"2022-10-13";"17:00:00";17;"Thursday";0;"highway";3;"1";"rain";"medium";34.0;"high";"overspeeding";"minor";4;4;1;"No Festival";0.6
+472;"Pune";"Maharashtra";18.633281;73.813585;"2024-02-26";"09:00:00";9;"Monday";0;"urban";4;"0";"rain";"medium";28.0;"high";"overspeeding";"minor";2;2;1;"No Festival";0.6
+473;"Bangalore";"Karnataka";12.874319;77.560204;"2024-08-22";"21:00:00";21;"Thursday";0;"highway";5;"1";"clear";"high";18.0;"high";"drunk driving";"major";5;3;0;"No Festival";0.3
+474;"Kolkata";"West Bengal";22.560204;88.468459;"2024-02-09";"02:00:00";2;"Friday";0;"urban";4;"1";"fog";"low";34.0;"low";"poor road";"major";4;4;0;"No Festival";0.45
+475;"Delhi";"Delhi";28.778987;76.977514;"2022-01-02";"09:00:00";9;"Sunday";1;"rural";6;"1";"fog";"low";20.0;"high";"drunk driving";"major";4;1;1;"No Festival";0.8
+476;"Kolkata";"West Bengal";22.631425;88.259076;"2022-07-19";"01:00:00";1;"Tuesday";0;"rural";2;"0";"clear";"high";38.0;"low";"distraction";"minor";1;1;0;"No Festival";0.1
+477;"Delhi";"Delhi";28.848392;77.002975;"2022-05-24";"04:00:00";4;"Tuesday";0;"urban";6;"1";"fog";"low";26.0;"medium";"poor road";"minor";5;2;0;"No Festival";0.45
+478;"Mumbai";"Maharashtra";18.829473;72.892258;"2022-02-23";"05:00:00";5;"Wednesday";0;"highway";6;"1";"rain";"medium";21.0;"medium";"weather";"fatal";4;4;0;"No Festival";0.45
+479;"Pune";"Maharashtra";18.660362;73.863866;"2024-11-13";"02:00:00";2;"Wednesday";0;"highway";1;"0";"fog";"low";22.0;"low";"distraction";"major";1;0;0;"No Festival";0.45
+480;"Delhi";"Delhi";28.495456;77.064015;"2024-10-28";"04:00:00";4;"Monday";0;"rural";5;"1";"fog";"low";36.0;"low";"distraction";"fatal";5;5;0;"No Festival";0.65
+481;"Kolkata";"West Bengal";22.445287;88.427148;"2024-05-05";"09:00:00";9;"Sunday";1;"highway";5;"0";"fog";"low";34.0;"high";"poor road";"major";2;2;1;"No Festival";0.8
+482;"Hyderabad";"Telangana";17.457398;78.207636;"2023-12-26";"03:00:00";3;"Tuesday";0;"urban";6;"0";"clear";"high";28.0;"low";"weather";"minor";2;0;0;"No Festival";0.1
+483;"Chennai";"Tamil Nadu";12.839362;80.263658;"2025-02-05";"07:00:00";7;"Wednesday";0;"rural";1;"0";"rain";"medium";34.0;"medium";"distraction";"fatal";2;2;0;"No Festival";0.45
+484;"Kolkata";"West Bengal";22.651052;88.416992;"2024-01-12";"09:00:00";9;"Friday";0;"urban";2;"0";"rain";"low";26.0;"medium";"weather";"minor";5;4;1;"No Festival";0.6
+485;"Chennai";"Tamil Nadu";13.077407;80.263691;"2023-03-05";"11:00:00";11;"Sunday";1;"urban";3;"1";"rain";"low";28.0;"medium";"weather";"minor";4;1;0;"No Festival";0.45
+486;"Kolkata";"West Bengal";22.527311;88.256941;"2023-12-15";"00:00:00";0;"Friday";0;"highway";6;"1";"fog";"low";27.0;"low";"drunk driving";"minor";2;2;0;"No Festival";0.45
+487;"Mumbai";"Maharashtra";19.158541;72.929406;"2023-12-14";"00:00:00";0;"Thursday";0;"urban";3;"1";"clear";"high";16.0;"low";"poor road";"minor";2;2;0;"No Festival";0.1
+488;"Bangalore";"Karnataka";13.060177;77.527135;"2024-03-09";"21:00:00";21;"Saturday";1;"rural";5;"1";"fog";"low";16.0;"high";"overspeeding";"minor";4;2;0;"No Festival";0.65
+489;"Delhi";"Delhi";28.506395;77.048485;"2023-03-21";"08:00:00";8;"Tuesday";0;"urban";1;"1";"fog";"low";21.0;"medium";"poor road";"minor";4;1;1;"No Festival";0.6
+490;"Pune";"Maharashtra";18.460897;73.900804;"2022-08-18";"15:00:00";15;"Thursday";0;"rural";3;"1";"clear";"high";18.0;"low";"poor road";"fatal";3;3;0;"No Festival";0.3
+491;"Chandigarh";"Punjab";30.704397;76.872086;"2023-01-20";"22:00:00";22;"Friday";0;"highway";1;"1";"clear";"high";28.0;"high";"overspeeding";"minor";5;2;0;"No Festival";0.3
+492;"Hyderabad";"Telangana";17.487653;78.541296;"2023-08-16";"01:00:00";1;"Wednesday";0;"highway";5;"0";"rain";"low";39.0;"low";"drunk driving";"minor";4;0;0;"No Festival";0.45
+493;"Delhi";"Delhi";28.862528;76.882488;"2023-08-11";"04:00:00";4;"Friday";0;"urban";5;"1";"rain";"medium";36.0;"low";"distraction";"minor";1;0;0;"No Festival";0.25
+494;"Hyderabad";"Telangana";17.539404;78.221201;"2023-04-04";"12:00:00";12;"Tuesday";0;"rural";1;"0";"fog";"low";36.0;"high";"overspeeding";"minor";1;0;0;"No Festival";0.65
+495;"Bangalore";"Karnataka";13.03119;77.439954;"2024-08-09";"17:00:00";17;"Friday";0;"rural";1;"1";"rain";"medium";28.0;"high";"drunk driving";"major";1;1;1;"No Festival";0.6
+496;"Chennai";"Tamil Nadu";13.004738;80.164282;"2023-11-28";"14:00:00";14;"Tuesday";0;"rural";2;"1";"rain";"medium";21.0;"medium";"weather";"minor";5;3;0;"No Festival";0.25
+497;"Pune";"Maharashtra";18.408211;73.836077;"2023-08-05";"18:00:00";18;"Saturday";1;"highway";1;"1";"rain";"medium";36.0;"high";"distraction";"major";4;4;1;"No Festival";0.6
+498;"Hyderabad";"Telangana";17.361712;78.279241;"2022-08-26";"22:00:00";22;"Friday";0;"rural";5;"0";"rain";"medium";35.0;"low";"overspeeding";"major";3;3;0;"No Festival";0.25
+499;"Bangalore";"Karnataka";12.940417;77.683922;"2022-04-16";"17:00:00";17;"Saturday";1;"highway";6;"0";"rain";"low";30.0;"high";"overspeeding";"minor";4;0;1;"No Festival";0.8
+500;"Hyderabad";"Telangana";17.310556;78.405671;"2022-03-02";"22:00:00";22;"Wednesday";0;"urban";1;"0";"clear";"high";26.0;"low";"poor road";"minor";1;0;0;"No Festival";0.1
+501;"Hyderabad";"Telangana";17.318148;78.55434;"2022-05-16";"12:00:00";12;"Monday";0;"urban";6;"1";"rain";"low";17.0;"medium";"poor road";"fatal";5;5;0;"No Festival";0.65
+502;"Bangalore";"Karnataka";13.038925;77.471671;"2024-11-27";"17:00:00";17;"Wednesday";0;"highway";1;"1";"fog";"low";21.0;"high";"weather";"minor";3;1;1;"No Festival";0.8
+503;"Mumbai";"Maharashtra";19.058781;72.937114;"2022-05-29";"10:00:00";10;"Sunday";1;"highway";3;"1";"rain";"low";16.0;"medium";"overspeeding";"fatal";4;4;1;"No Festival";0.8
+504;"Mumbai";"Maharashtra";18.867672;72.800601;"2024-05-30";"10:00:00";10;"Thursday";0;"urban";5;"0";"fog";"low";39.0;"medium";"distraction";"minor";1;1;1;"No Festival";0.6
+505;"Bangalore";"Karnataka";12.935809;77.79042;"2024-07-18";"10:00:00";10;"Thursday";0;"rural";2;"0";"fog";"low";34.0;"high";"distraction";"fatal";2;2;1;"No Festival";1.0
+506;"Delhi";"Delhi";28.65434;76.812615;"2024-07-29";"03:00:00";3;"Monday";0;"highway";2;"0";"rain";"low";35.0;"low";"poor road";"minor";1;1;0;"No Festival";0.45
+507;"Chennai";"Tamil Nadu";12.973499;80.109124;"2023-09-28";"09:00:00";9;"Thursday";0;"highway";1;"1";"fog";"low";37.0;"high";"poor road";"major";2;1;1;"No Festival";0.8
+508;"Hyderabad";"Telangana";17.557086;78.478082;"2022-06-23";"13:00:00";13;"Thursday";0;"urban";4;"1";"rain";"low";37.0;"medium";"weather";"major";4;0;0;"No Festival";0.45
+509;"Mumbai";"Maharashtra";19.090579;72.834043;"2022-03-02";"13:00:00";13;"Wednesday";0;"urban";5;"0";"clear";"high";27.0;"medium";"overspeeding";"minor";1;1;0;"No Festival";0.1
+510;"Mumbai";"Maharashtra";19.041897;72.719868;"2023-05-17";"07:00:00";7;"Wednesday";0;"rural";6;"0";"fog";"low";32.0;"high";"drunk driving";"fatal";5;5;0;"No Festival";0.85
+511;"Delhi";"Delhi";28.687821;76.875014;"2022-06-09";"19:00:00";19;"Thursday";0;"highway";1;"0";"clear";"high";32.0;"medium";"poor road";"fatal";4;4;1;"No Festival";0.45
+512;"Pune";"Maharashtra";18.493721;73.89316;"2024-12-12";"02:00:00";2;"Thursday";0;"urban";3;"0";"clear";"high";16.0;"medium";"drunk driving";"minor";3;1;0;"No Festival";0.1
+513;"Bangalore";"Karnataka";12.938471;77.569677;"2024-09-06";"23:00:00";23;"Friday";0;"urban";3;"1";"clear";"high";16.0;"low";"weather";"major";2;1;0;"No Festival";0.1
+514;"Mumbai";"Maharashtra";19.021859;72.865643;"2022-01-29";"09:00:00";9;"Saturday";1;"highway";5;"0";"rain";"low";39.0;"low";"poor road";"major";4;3;1;"No Festival";0.6
+515;"Hyderabad";"Telangana";17.399051;78.324222;"2023-04-25";"16:00:00";16;"Tuesday";0;"rural";5;"1";"clear";"high";26.0;"low";"poor road";"major";4;4;0;"No Festival";0.1
+516;"Hyderabad";"Telangana";17.579808;78.226828;"2024-02-24";"04:00:00";4;"Saturday";1;"urban";5;"1";"rain";"medium";32.0;"low";"weather";"minor";2;2;0;"No Festival";0.25
+517;"Pune";"Maharashtra";18.665048;73.711344;"2023-04-18";"22:00:00";22;"Tuesday";0;"highway";1;"0";"clear";"high";35.0;"high";"distraction";"minor";3;0;0;"No Festival";0.3
+518;"Chennai";"Tamil Nadu";12.855499;80.235898;"2025-02-22";"04:00:00";4;"Saturday";1;"urban";4;"0";"clear";"high";29.0;"low";"poor road";"fatal";4;4;0;"No Festival";0.3
+519;"Delhi";"Delhi";28.793572;77.033278;"2022-10-17";"16:00:00";16;"Monday";0;"highway";5;"1";"fog";"low";38.0;"medium";"distraction";"fatal";2;2;0;"No Festival";0.65
+520;"Pune";"Maharashtra";18.64573;73.857272;"2023-06-30";"13:00:00";13;"Friday";0;"urban";3;"1";"fog";"low";31.0;"low";"drunk driving";"fatal";3;3;0;"No Festival";0.65
+521;"Pune";"Maharashtra";18.653025;73.896448;"2024-08-08";"17:00:00";17;"Thursday";0;"highway";6;"1";"fog";"low";37.0;"low";"weather";"minor";2;1;1;"No Festival";0.6
+522;"Hyderabad";"Telangana";17.358432;78.200209;"2025-02-16";"18:00:00";18;"Sunday";1;"urban";5;"1";"clear";"high";29.0;"medium";"distraction";"minor";4;0;1;"No Festival";0.25
+523;"Mumbai";"Maharashtra";19.296951;72.838842;"2024-06-09";"08:00:00";8;"Sunday";1;"highway";5;"1";"clear";"high";38.0;"high";"overspeeding";"major";1;0;1;"No Festival";0.45
+524;"Chennai";"Tamil Nadu";12.885732;80.28941;"2023-12-08";"22:00:00";22;"Friday";0;"urban";6;"1";"clear";"high";26.0;"high";"drunk driving";"minor";4;2;0;"No Festival";0.3
+525;"Pune";"Maharashtra";18.602707;73.933327;"2022-11-27";"18:00:00";18;"Sunday";1;"highway";4;"1";"clear";"high";23.0;"high";"weather";"minor";4;2;1;"No Festival";0.45
+526;"Chandigarh";"Punjab";30.788083;76.76479;"2023-08-14";"06:00:00";6;"Monday";0;"rural";4;"0";"fog";"low";24.0;"low";"drunk driving";"fatal";4;4;0;"No Festival";0.65
+527;"Bangalore";"Karnataka";12.965455;77.503129;"2024-04-28";"17:00:00";17;"Sunday";1;"highway";3;"0";"fog";"low";32.0;"high";"poor road";"major";3;3;1;"No Festival";0.8
+528;"Hyderabad";"Telangana";17.206802;78.509494;"2022-12-28";"04:00:00";4;"Wednesday";0;"highway";2;"1";"fog";"low";39.0;"medium";"overspeeding";"minor";3;3;0;"No Festival";0.45
+529;"Pune";"Maharashtra";18.660781;73.793092;"2024-03-01";"14:00:00";14;"Friday";0;"urban";1;"1";"clear";"high";19.0;"medium";"drunk driving";"minor";3;3;0;"No Festival";0.1
+530;"Mumbai";"Maharashtra";18.897726;72.821774;"2025-02-15";"03:00:00";3;"Saturday";1;"urban";5;"0";"rain";"low";40.0;"low";"distraction";"major";3;3;0;"No Festival";0.45
+531;"Kolkata";"West Bengal";22.655639;88.262162;"2022-07-13";"02:00:00";2;"Wednesday";0;"highway";1;"1";"clear";"high";25.0;"low";"distraction";"major";5;1;0;"No Festival";0.1
+532;"Pune";"Maharashtra";18.571685;73.96122;"2024-05-06";"12:00:00";12;"Monday";0;"highway";3;"0";"rain";"medium";40.0;"medium";"weather";"major";5;1;0;"No Festival";0.25
+533;"Chennai";"Tamil Nadu";12.817504;80.136037;"2022-09-10";"17:00:00";17;"Saturday";1;"rural";6;"1";"rain";"medium";39.0;"medium";"weather";"minor";4;4;1;"No Festival";0.4
+534;"Mumbai";"Maharashtra";18.904708;72.989132;"2025-03-28";"19:00:00";19;"Friday";0;"highway";3;"1";"fog";"low";39.0;"low";"drunk driving";"major";5;4;1;"No Festival";0.6
+535;"Mumbai";"Maharashtra";18.984272;72.774002;"2023-06-06";"18:00:00";18;"Tuesday";0;"rural";6;"1";"clear";"high";15.0;"medium";"poor road";"major";4;1;1;"No Festival";0.25
+536;"Kolkata";"West Bengal";22.557039;88.250542;"2022-10-14";"12:00:00";12;"Friday";0;"urban";6;"0";"clear";"high";26.0;"high";"drunk driving";"minor";2;2;0;"No Festival";0.3
+537;"Bangalore";"Karnataka";12.92414;77.756905;"2025-04-11";"22:00:00";22;"Friday";0;"highway";3;"1";"fog";"low";31.0;"low";"drunk driving";"fatal";2;2;0;"No Festival";0.65
+538;"Mumbai";"Maharashtra";19.17639;72.83154;"2023-02-19";"00:00:00";0;"Sunday";1;"highway";3;"0";"rain";"low";21.0;"low";"overspeeding";"minor";4;1;0;"No Festival";0.45
+539;"Chennai";"Tamil Nadu";13.038197;80.150161;"2022-11-28";"05:00:00";5;"Monday";0;"urban";4;"1";"fog";"low";40.0;"low";"poor road";"minor";1;1;0;"No Festival";0.45
+540;"Mumbai";"Maharashtra";18.877165;72.922716;"2023-09-28";"06:00:00";6;"Thursday";0;"urban";2;"1";"rain";"medium";24.0;"medium";"overspeeding";"major";5;0;0;"No Festival";0.25
+541;"Mumbai";"Maharashtra";19.113284;72.889961;"2022-01-01";"21:00:00";21;"Saturday";1;"rural";6;"1";"rain";"medium";30.0;"high";"drunk driving";"major";5;3;0;"No Festival";0.45
+542;"Bangalore";"Karnataka";13.13621;77.482313;"2022-09-25";"11:00:00";11;"Sunday";1;"highway";3;"1";"clear";"high";28.0;"low";"weather";"minor";1;1;0;"No Festival";0.1
+543;"Bangalore";"Karnataka";12.810978;77.534254;"2023-06-04";"04:00:00";4;"Sunday";1;"highway";3;"1";"rain";"medium";15.0;"low";"poor road";"minor";5;0;0;"No Festival";0.25
+544;"Pune";"Maharashtra";18.430795;73.712749;"2024-09-03";"19:00:00";19;"Tuesday";0;"rural";6;"1";"rain";"medium";19.0;"high";"drunk driving";"minor";4;4;1;"No Festival";0.6
+545;"Kolkata";"West Bengal";22.572038;88.303193;"2024-12-31";"09:00:00";9;"Tuesday";0;"rural";5;"0";"fog";"low";29.0;"high";"weather";"minor";2;0;1;"No Festival";0.8
+546;"Chennai";"Tamil Nadu";13.194003;80.175637;"2023-08-05";"02:00:00";2;"Saturday";1;"rural";5;"0";"rain";"low";34.0;"low";"distraction";"minor";1;1;0;"No Festival";0.45
+547;"Delhi";"Delhi";28.831982;77.293127;"2022-02-13";"03:00:00";3;"Sunday";1;"highway";5;"0";"rain";"low";30.0;"low";"distraction";"fatal";4;4;0;"No Festival";0.65
+548;"Chandigarh";"Punjab";30.788587;76.831434;"2022-05-01";"03:00:00";3;"Sunday";1;"highway";3;"1";"fog";"low";23.0;"medium";"poor road";"minor";3;1;0;"No Festival";0.45
+549;"Chandigarh";"Punjab";30.649983;76.8384;"2024-07-12";"18:00:00";18;"Friday";0;"rural";3;"1";"rain";"medium";27.0;"high";"overspeeding";"minor";2;2;1;"No Festival";0.6
+550;"Bangalore";"Karnataka";12.819454;77.621806;"2025-02-02";"11:00:00";11;"Sunday";1;"rural";1;"0";"rain";"medium";21.0;"low";"distraction";"major";3;1;0;"No Festival";0.25
+551;"Mumbai";"Maharashtra";19.071293;72.927183;"2022-11-01";"21:00:00";21;"Tuesday";0;"rural";3;"1";"clear";"high";34.0;"low";"distraction";"major";3;1;0;"No Festival";0.1
+552;"Hyderabad";"Telangana";17.366319;78.398514;"2024-03-26";"03:00:00";3;"Tuesday";0;"highway";2;"0";"rain";"low";32.0;"low";"poor road";"minor";2;1;0;"No Festival";0.45
+553;"Pune";"Maharashtra";18.458585;73.737994;"2024-08-29";"14:00:00";14;"Thursday";0;"highway";6;"1";"rain";"low";34.0;"high";"poor road";"minor";5;3;0;"No Festival";0.65
+554;"Hyderabad";"Telangana";17.446934;78.400292;"2022-02-07";"03:00:00";3;"Monday";0;"rural";1;"0";"rain";"low";16.0;"low";"distraction";"minor";3;3;0;"No Festival";0.45
+555;"Pune";"Maharashtra";18.453923;73.778025;"2022-09-11";"13:00:00";13;"Sunday";1;"highway";1;"1";"fog";"low";34.0;"high";"distraction";"minor";2;2;0;"No Festival";0.65
+556;"Delhi";"Delhi";28.461191;77.237754;"2022-07-24";"22:00:00";22;"Sunday";1;"highway";1;"1";"rain";"medium";22.0;"medium";"poor road";"fatal";2;2;0;"No Festival";0.45
+557;"Hyderabad";"Telangana";17.401452;78.312458;"2023-11-10";"02:00:00";2;"Friday";0;"highway";6;"0";"fog";"low";35.0;"medium";"weather";"fatal";5;5;0;"No Festival";0.65
+558;"Hyderabad";"Telangana";17.382132;78.299907;"2023-06-07";"00:00:00";0;"Wednesday";0;"urban";2;"0";"rain";"low";16.0;"low";"weather";"major";5;4;0;"No Festival";0.45
+559;"Hyderabad";"Telangana";17.379493;78.584961;"2024-10-21";"07:00:00";7;"Monday";0;"rural";1;"1";"clear";"high";20.0;"low";"poor road";"fatal";3;3;0;"No Festival";0.3
+560;"Chennai";"Tamil Nadu";12.82867;80.226388;"2025-03-16";"14:00:00";14;"Sunday";1;"urban";3;"1";"clear";"high";23.0;"low";"drunk driving";"fatal";5;5;0;"No Festival";0.3
+561;"Mumbai";"Maharashtra";18.949404;72.878909;"2023-08-09";"14:00:00";14;"Wednesday";0;"highway";3;"0";"fog";"low";27.0;"medium";"distraction";"minor";1;1;0;"No Festival";0.45
+562;"Delhi";"Delhi";28.606897;77.084738;"2024-12-03";"01:00:00";1;"Tuesday";0;"urban";5;"1";"fog";"low";22.0;"low";"drunk driving";"fatal";2;2;0;"No Festival";0.65
+563;"Chandigarh";"Punjab";30.79765;76.710717;"2022-03-06";"05:00:00";5;"Sunday";1;"rural";1;"1";"fog";"low";24.0;"medium";"overspeeding";"minor";4;0;0;"No Festival";0.45
+564;"Chennai";"Tamil Nadu";13.065036;80.225858;"2022-11-23";"14:00:00";14;"Wednesday";0;"rural";1;"1";"clear";"high";39.0;"high";"distraction";"minor";3;3;0;"No Festival";0.3
+565;"Kolkata";"West Bengal";22.541313;88.375334;"2023-08-08";"19:00:00";19;"Tuesday";0;"rural";3;"0";"fog";"low";16.0;"high";"drunk driving";"major";3;0;1;"No Festival";0.8
+566;"Chandigarh";"Punjab";30.691499;76.727163;"2023-10-27";"07:00:00";7;"Friday";0;"highway";5;"1";"rain";"medium";32.0;"low";"distraction";"major";2;0;0;"No Festival";0.25
+567;"Mumbai";"Maharashtra";19.07549;72.797602;"2023-10-10";"06:00:00";6;"Tuesday";0;"highway";2;"1";"rain";"low";33.0;"high";"drunk driving";"major";1;0;0;"No Festival";0.65
+568;"Delhi";"Delhi";28.419828;76.894595;"2023-06-08";"10:00:00";10;"Thursday";0;"urban";5;"0";"rain";"low";25.0;"high";"poor road";"minor";2;0;1;"No Festival";0.8
+569;"Chandigarh";"Punjab";30.652057;76.724501;"2025-04-05";"11:00:00";11;"Saturday";1;"highway";1;"1";"rain";"low";27.0;"medium";"poor road";"fatal";1;1;0;"No Festival";0.65
+570;"Mumbai";"Maharashtra";19.159709;72.713424;"2022-12-02";"15:00:00";15;"Friday";0;"rural";3;"0";"rain";"low";38.0;"medium";"overspeeding";"major";5;0;0;"No Festival";0.45
+571;"Pune";"Maharashtra";18.401236;73.793188;"2022-03-14";"06:00:00";6;"Monday";0;"highway";2;"0";"clear";"high";30.0;"low";"overspeeding";"major";3;2;0;"No Festival";0.1
+572;"Mumbai";"Maharashtra";18.992844;72.760452;"2024-08-28";"02:00:00";2;"Wednesday";0;"rural";2;"0";"clear";"high";27.0;"low";"poor road";"minor";1;0;0;"No Festival";0.1
+573;"Chandigarh";"Punjab";30.745645;76.714935;"2022-08-22";"03:00:00";3;"Monday";0;"highway";5;"0";"rain";"medium";34.0;"medium";"weather";"major";4;1;0;"No Festival";0.25
+574;"Kolkata";"West Bengal";22.43256;88.418923;"2024-12-08";"21:00:00";21;"Sunday";1;"urban";2;"0";"clear";"high";27.0;"low";"poor road";"fatal";4;4;0;"No Festival";0.3
+575;"Pune";"Maharashtra";18.462556;73.872237;"2024-12-26";"06:00:00";6;"Thursday";0;"rural";2;"1";"rain";"medium";22.0;"high";"drunk driving";"minor";1;1;0;"No Festival";0.45
+576;"Chandigarh";"Punjab";30.652055;76.825982;"2024-04-07";"00:00:00";0;"Sunday";1;"urban";4;"0";"clear";"high";16.0;"low";"drunk driving";"major";1;1;0;"No Festival";0.1
+577;"Hyderabad";"Telangana";17.346346;78.357747;"2025-01-25";"11:00:00";11;"Saturday";1;"highway";4;"1";"fog";"low";36.0;"medium";"drunk driving";"fatal";1;1;0;"No Festival";0.65
+578;"Chennai";"Tamil Nadu";13.195316;80.29898;"2022-02-02";"13:00:00";13;"Wednesday";0;"rural";4;"0";"fog";"low";39.0;"high";"overspeeding";"minor";3;1;0;"No Festival";0.65
+579;"Kolkata";"West Bengal";22.437259;88.297527;"2022-10-20";"08:00:00";8;"Thursday";0;"rural";5;"1";"clear";"high";16.0;"high";"drunk driving";"minor";2;2;1;"No Festival";0.45
+580;"Mumbai";"Maharashtra";19.097344;72.991926;"2024-11-10";"06:00:00";6;"Sunday";1;"rural";2;"1";"rain";"low";31.0;"medium";"weather";"minor";2;1;0;"No Festival";0.45
+581;"Delhi";"Delhi";28.630183;76.836074;"2024-11-10";"11:00:00";11;"Sunday";1;"rural";5;"0";"rain";"low";18.0;"high";"distraction";"minor";1;0;0;"No Festival";0.65
+582;"Pune";"Maharashtra";18.546122;73.751009;"2024-02-06";"02:00:00";2;"Tuesday";0;"highway";1;"0";"rain";"medium";38.0;"low";"overspeeding";"minor";4;1;0;"No Festival";0.25
+583;"Chandigarh";"Punjab";30.649544;76.797061;"2023-02-23";"10:00:00";10;"Thursday";0;"urban";6;"1";"rain";"low";21.0;"high";"distraction";"minor";2;0;1;"No Festival";0.8
+584;"Kolkata";"West Bengal";22.402947;88.323779;"2023-01-09";"08:00:00";8;"Monday";0;"rural";4;"0";"fog";"low";33.0;"medium";"weather";"minor";3;3;1;"No Festival";0.6
+585;"Chandigarh";"Punjab";30.723144;76.776371;"2022-06-02";"09:00:00";9;"Thursday";0;"urban";5;"1";"rain";"medium";24.0;"medium";"overspeeding";"major";1;1;1;"No Festival";0.4
+586;"Chandigarh";"Punjab";30.605893;76.703909;"2022-09-08";"10:00:00";10;"Thursday";0;"urban";2;"0";"clear";"high";19.0;"medium";"poor road";"minor";5;5;1;"No Festival";0.25
+587;"Chandigarh";"Punjab";30.742443;76.89688;"2024-09-19";"15:00:00";15;"Thursday";0;"rural";3;"0";"clear";"high";36.0;"low";"weather";"major";5;4;0;"No Festival";0.1
+588;"Chandigarh";"Punjab";30.790346;76.728551;"2022-09-12";"00:00:00";0;"Monday";0;"urban";5;"0";"clear";"high";15.0;"low";"drunk driving";"major";5;1;0;"No Festival";0.1
+589;"Delhi";"Delhi";28.433237;77.08613;"2023-12-23";"07:00:00";7;"Saturday";1;"urban";1;"1";"rain";"medium";17.0;"high";"drunk driving";"minor";5;4;0;"No Festival";0.45
+590;"Delhi";"Delhi";28.614772;76.876199;"2022-11-10";"20:00:00";20;"Thursday";0;"highway";1;"1";"fog";"low";20.0;"medium";"weather";"major";5;2;0;"No Festival";0.45
+591;"Delhi";"Delhi";28.654869;77.28294;"2024-08-19";"08:00:00";8;"Monday";0;"urban";3;"1";"rain";"medium";27.0;"high";"drunk driving";"minor";2;2;1;"No Festival";0.6
+592;"Delhi";"Delhi";28.606157;77.006735;"2025-04-10";"17:00:00";17;"Thursday";0;"rural";6;"1";"clear";"high";39.0;"high";"poor road";"fatal";2;2;1;"No Festival";0.65
+593;"Delhi";"Delhi";28.801315;77.093798;"2023-08-02";"03:00:00";3;"Wednesday";0;"highway";4;"1";"clear";"high";40.0;"medium";"poor road";"minor";1;0;0;"No Festival";0.1
+594;"Chennai";"Tamil Nadu";12.935117;80.189321;"2022-03-13";"01:00:00";1;"Sunday";1;"highway";6;"0";"fog";"low";24.0;"low";"poor road";"minor";4;0;0;"No Festival";0.45
+595;"Pune";"Maharashtra";18.432546;73.725235;"2023-08-05";"23:00:00";23;"Saturday";1;"rural";2;"1";"fog";"low";26.0;"high";"overspeeding";"fatal";4;4;0;"No Festival";0.85
+596;"Chandigarh";"Punjab";30.731448;76.875925;"2023-10-15";"11:00:00";11;"Sunday";1;"rural";2;"0";"fog";"low";33.0;"medium";"poor road";"minor";3;2;0;"No Festival";0.45
+597;"Hyderabad";"Telangana";17.41493;78.293052;"2022-03-26";"23:00:00";23;"Saturday";1;"urban";3;"0";"rain";"medium";27.0;"low";"overspeeding";"fatal";2;2;0;"No Festival";0.45
+598;"Chandigarh";"Punjab";30.657631;76.861569;"2024-06-10";"21:00:00";21;"Monday";0;"rural";4;"0";"rain";"low";25.0;"high";"weather";"minor";3;1;0;"No Festival";0.65
+599;"Kolkata";"West Bengal";22.677292;88.426894;"2022-07-18";"04:00:00";4;"Monday";0;"urban";4;"1";"rain";"low";36.0;"low";"distraction";"minor";5;4;0;"No Festival";0.45
+600;"Delhi";"Delhi";28.785009;76.86939;"2022-04-26";"01:00:00";1;"Tuesday";0;"urban";4;"1";"rain";"medium";25.0;"high";"overspeeding";"minor";1;0;0;"No Festival";0.45
+601;"Hyderabad";"Telangana";17.507673;78.390292;"2024-06-04";"12:00:00";12;"Tuesday";0;"rural";3;"1";"fog";"low";17.0;"high";"distraction";"minor";2;0;0;"No Festival";0.65
+602;"Delhi";"Delhi";28.57113;77.174163;"2022-09-30";"19:00:00";19;"Friday";0;"rural";3;"0";"rain";"low";24.0;"high";"weather";"minor";3;0;1;"No Festival";0.8
+603;"Kolkata";"West Bengal";22.597287;88.318117;"2022-04-05";"17:00:00";17;"Tuesday";0;"rural";6;"1";"fog";"low";28.0;"medium";"poor road";"fatal";4;4;1;"No Festival";0.8
+604;"Hyderabad";"Telangana";17.547401;78.484011;"2024-03-23";"22:00:00";22;"Saturday";1;"highway";3;"1";"clear";"high";39.0;"high";"distraction";"major";4;2;0;"No Festival";0.3
+605;"Chandigarh";"Punjab";30.731788;76.716813;"2025-01-28";"02:00:00";2;"Tuesday";0;"urban";1;"0";"rain";"low";21.0;"low";"poor road";"fatal";5;5;0;"No Festival";0.65
+606;"Chandigarh";"Punjab";30.709922;76.718529;"2022-04-25";"13:00:00";13;"Monday";0;"urban";2;"0";"rain";"low";27.0;"high";"drunk driving";"minor";2;1;0;"No Festival";0.65
+607;"Kolkata";"West Bengal";22.458366;88.401007;"2023-06-09";"06:00:00";6;"Friday";0;"rural";2;"1";"rain";"medium";15.0;"high";"drunk driving";"major";5;5;0;"No Festival";0.45
+608;"Delhi";"Delhi";28.668357;77.274587;"2024-11-28";"09:00:00";9;"Thursday";0;"rural";4;"0";"clear";"high";28.0;"medium";"drunk driving";"minor";1;0;1;"No Festival";0.25
+609;"Kolkata";"West Bengal";22.627804;88.336734;"2022-05-27";"21:00:00";21;"Friday";0;"urban";2;"1";"fog";"low";30.0;"medium";"weather";"fatal";3;3;0;"No Festival";0.65
+610;"Kolkata";"West Bengal";22.584957;88.403218;"2023-03-22";"04:00:00";4;"Wednesday";0;"urban";3;"0";"clear";"high";20.0;"low";"drunk driving";"fatal";4;4;0;"No Festival";0.3
+611;"Chandigarh";"Punjab";30.640146;76.763561;"2024-09-17";"02:00:00";2;"Tuesday";0;"urban";5;"1";"rain";"medium";25.0;"low";"distraction";"major";1;1;0;"No Festival";0.25
+612;"Delhi";"Delhi";28.423756;77.19437;"2022-10-04";"02:00:00";2;"Tuesday";0;"highway";6;"1";"fog";"low";15.0;"low";"drunk driving";"minor";5;1;0;"No Festival";0.45
+613;"Kolkata";"West Bengal";22.57034;88.269589;"2025-01-14";"20:00:00";20;"Tuesday";0;"rural";3;"1";"fog";"low";39.0;"low";"distraction";"major";2;2;0;"No Festival";0.45
+614;"Chennai";"Tamil Nadu";12.860229;80.110222;"2024-04-17";"09:00:00";9;"Wednesday";0;"rural";2;"0";"fog";"low";18.0;"medium";"weather";"major";3;1;1;"No Festival";0.6
+615;"Mumbai";"Maharashtra";18.856408;72.914772;"2023-04-26";"17:00:00";17;"Wednesday";0;"urban";3;"0";"clear";"high";32.0;"high";"overspeeding";"major";3;0;1;"No Festival";0.45
+616;"Chandigarh";"Punjab";30.651682;76.772948;"2022-06-19";"16:00:00";16;"Sunday";1;"urban";6;"0";"clear";"high";36.0;"low";"distraction";"major";1;0;0;"No Festival";0.1
+617;"Delhi";"Delhi";28.539342;77.014773;"2024-08-23";"16:00:00";16;"Friday";0;"highway";5;"1";"fog";"low";39.0;"high";"weather";"fatal";4;4;0;"No Festival";0.85
+618;"Mumbai";"Maharashtra";19.094879;72.771039;"2024-11-23";"06:00:00";6;"Saturday";1;"rural";1;"0";"fog";"low";33.0;"medium";"poor road";"minor";5;0;0;"No Festival";0.45
+619;"Bangalore";"Karnataka";12.947446;77.639582;"2024-12-20";"21:00:00";21;"Friday";0;"highway";2;"1";"fog";"low";40.0;"low";"overspeeding";"minor";1;1;0;"No Festival";0.45
+620;"Delhi";"Delhi";28.410014;77.078242;"2024-01-08";"01:00:00";1;"Monday";0;"urban";1;"1";"fog";"low";16.0;"high";"drunk driving";"minor";1;1;0;"No Festival";0.65
+621;"Chennai";"Tamil Nadu";12.885873;80.174002;"2022-11-03";"16:00:00";16;"Thursday";0;"urban";6;"1";"rain";"medium";36.0;"low";"distraction";"minor";2;1;0;"No Festival";0.25
+622;"Delhi";"Delhi";28.759862;77.224029;"2023-07-19";"23:00:00";23;"Wednesday";0;"rural";6;"0";"fog";"low";18.0;"low";"drunk driving";"minor";5;0;0;"No Festival";0.45
+623;"Bangalore";"Karnataka";12.827299;77.565062;"2024-04-01";"02:00:00";2;"Monday";0;"rural";6;"1";"fog";"low";21.0;"medium";"weather";"major";3;1;0;"No Festival";0.45
+624;"Mumbai";"Maharashtra";19.014152;72.970411;"2023-08-21";"09:00:00";9;"Monday";0;"rural";5;"1";"rain";"low";34.0;"high";"poor road";"major";4;1;1;"No Festival";0.8
+625;"Chandigarh";"Punjab";30.625123;76.779372;"2022-08-21";"15:00:00";15;"Sunday";1;"rural";5;"1";"rain";"low";24.0;"medium";"overspeeding";"minor";1;1;0;"No Festival";0.45
+626;"Pune";"Maharashtra";18.51204;73.984545;"2024-08-19";"23:00:00";23;"Monday";0;"urban";1;"0";"clear";"high";36.0;"medium";"weather";"fatal";3;3;0;"No Festival";0.3
+627;"Pune";"Maharashtra";18.537592;73.768437;"2025-03-21";"01:00:00";1;"Friday";0;"urban";5;"1";"rain";"medium";22.0;"low";"distraction";"minor";3;3;0;"No Festival";0.25
+628;"Mumbai";"Maharashtra";19.283056;72.744544;"2022-01-12";"18:00:00";18;"Wednesday";0;"rural";6;"1";"clear";"high";24.0;"high";"poor road";"major";2;1;1;"No Festival";0.45
+629;"Hyderabad";"Telangana";17.360349;78.597545;"2024-09-17";"01:00:00";1;"Tuesday";0;"urban";2;"0";"clear";"high";17.0;"low";"overspeeding";"minor";5;3;0;"No Festival";0.1
+630;"Chennai";"Tamil Nadu";12.995703;80.246007;"2024-07-14";"01:00:00";1;"Sunday";1;"urban";6;"0";"rain";"low";33.0;"low";"drunk driving";"minor";4;4;0;"No Festival";0.45
+631;"Pune";"Maharashtra";18.532687;73.727303;"2023-11-30";"13:00:00";13;"Thursday";0;"urban";4;"0";"rain";"low";15.0;"low";"poor road";"minor";4;0;0;"No Festival";0.45
+632;"Bangalore";"Karnataka";13.134811;77.461501;"2023-06-06";"11:00:00";11;"Tuesday";0;"highway";6;"0";"fog";"low";26.0;"low";"overspeeding";"major";3;3;0;"No Festival";0.45
+633;"Pune";"Maharashtra";18.575881;73.960153;"2023-11-09";"16:00:00";16;"Thursday";0;"urban";4;"0";"rain";"low";38.0;"medium";"distraction";"major";4;2;0;"No Festival";0.45
+634;"Bangalore";"Karnataka";12.917923;77.633189;"2022-07-08";"03:00:00";3;"Friday";0;"highway";2;"0";"fog";"low";40.0;"low";"distraction";"major";1;1;0;"No Festival";0.45
+635;"Chennai";"Tamil Nadu";13.121114;80.196258;"2023-06-07";"08:00:00";8;"Wednesday";0;"highway";4;"1";"clear";"high";33.0;"medium";"poor road";"minor";3;0;1;"No Festival";0.25
+636;"Mumbai";"Maharashtra";19.029433;72.832349;"2023-05-16";"17:00:00";17;"Tuesday";0;"highway";2;"1";"rain";"medium";40.0;"high";"weather";"minor";5;5;1;"No Festival";0.6
+637;"Chennai";"Tamil Nadu";12.968258;80.278025;"2022-03-16";"02:00:00";2;"Wednesday";0;"highway";4;"0";"clear";"high";30.0;"low";"drunk driving";"major";3;3;0;"No Festival";0.1
+638;"Chennai";"Tamil Nadu";13.152644;80.13559;"2022-05-12";"21:00:00";21;"Thursday";0;"urban";1;"1";"clear";"high";32.0;"medium";"overspeeding";"fatal";1;1;0;"No Festival";0.3
+639;"Kolkata";"West Bengal";22.551975;88.46929;"2025-02-14";"11:00:00";11;"Friday";0;"urban";6;"0";"rain";"low";34.0;"low";"weather";"major";2;0;0;"No Festival";0.45
+640;"Hyderabad";"Telangana";17.276563;78.481667;"2024-03-31";"12:00:00";12;"Sunday";1;"rural";2;"1";"clear";"high";15.0;"high";"poor road";"minor";5;4;0;"No Festival";0.3
+641;"Delhi";"Delhi";28.577479;76.961609;"2024-07-19";"00:00:00";0;"Friday";0;"urban";3;"1";"clear";"high";39.0;"low";"drunk driving";"minor";3;1;0;"No Festival";0.1
+642;"Bangalore";"Karnataka";12.891307;77.647669;"2022-02-22";"23:00:00";23;"Tuesday";0;"highway";4;"0";"rain";"medium";16.0;"low";"drunk driving";"minor";3;3;0;"No Festival";0.25
+643;"Hyderabad";"Telangana";17.422966;78.344913;"2023-10-07";"15:00:00";15;"Saturday";1;"urban";4;"0";"clear";"high";34.0;"low";"poor road";"fatal";5;5;0;"No Festival";0.3
+644;"Bangalore";"Karnataka";12.90506;77.758076;"2022-08-13";"11:00:00";11;"Saturday";1;"highway";3;"0";"clear";"high";22.0;"low";"drunk driving";"major";1;0;0;"No Festival";0.1
+645;"Chandigarh";"Punjab";30.77588;76.706095;"2024-01-06";"07:00:00";7;"Saturday";1;"urban";6;"0";"fog";"low";28.0;"high";"poor road";"major";3;2;0;"No Festival";0.65
+646;"Pune";"Maharashtra";18.579795;73.910257;"2024-06-24";"12:00:00";12;"Monday";0;"rural";3;"1";"fog";"low";21.0;"medium";"drunk driving";"major";5;2;0;"No Festival";0.45
+647;"Hyderabad";"Telangana";17.294177;78.238318;"2024-03-09";"06:00:00";6;"Saturday";1;"highway";6;"1";"fog";"low";38.0;"low";"drunk driving";"fatal";4;4;0;"No Festival";0.65
+648;"Pune";"Maharashtra";18.647773;73.831014;"2022-01-11";"01:00:00";1;"Tuesday";0;"urban";6;"1";"fog";"low";31.0;"low";"weather";"minor";5;5;0;"No Festival";0.45
+649;"Pune";"Maharashtra";18.427927;73.895792;"2023-05-09";"18:00:00";18;"Tuesday";0;"urban";6;"0";"fog";"low";37.0;"high";"drunk driving";"minor";3;3;1;"No Festival";0.8
+650;"Delhi";"Delhi";28.783445;77.103426;"2022-11-03";"00:00:00";0;"Thursday";0;"urban";5;"0";"fog";"low";37.0;"high";"distraction";"minor";2;1;0;"No Festival";0.65
+651;"Mumbai";"Maharashtra";18.984322;72.861388;"2025-01-29";"09:00:00";9;"Wednesday";0;"rural";6;"1";"clear";"high";39.0;"medium";"drunk driving";"major";4;4;1;"No Festival";0.25
+652;"Pune";"Maharashtra";18.609126;73.982113;"2024-01-19";"02:00:00";2;"Friday";0;"rural";2;"1";"clear";"high";19.0;"low";"poor road";"major";2;1;0;"No Festival";0.1
+653;"Mumbai";"Maharashtra";19.090503;72.764378;"2022-01-24";"08:00:00";8;"Monday";0;"highway";4;"0";"fog";"low";26.0;"high";"drunk driving";"major";4;2;1;"No Festival";0.8
+654;"Chandigarh";"Punjab";30.644166;76.847467;"2024-11-29";"13:00:00";13;"Friday";0;"urban";1;"0";"fog";"low";26.0;"medium";"overspeeding";"minor";5;0;0;"No Festival";0.45
+655;"Chandigarh";"Punjab";30.654469;76.752972;"2022-07-24";"03:00:00";3;"Sunday";1;"urban";5;"0";"rain";"low";35.0;"low";"overspeeding";"minor";3;0;0;"No Festival";0.45
+656;"Chennai";"Tamil Nadu";12.86041;80.120678;"2023-06-24";"17:00:00";17;"Saturday";1;"rural";3;"0";"rain";"medium";38.0;"medium";"overspeeding";"major";3;3;1;"No Festival";0.4
+657;"Chennai";"Tamil Nadu";13.034434;80.287617;"2023-07-07";"15:00:00";15;"Friday";0;"rural";1;"0";"fog";"low";15.0;"high";"distraction";"minor";5;4;0;"No Festival";0.65
+658;"Pune";"Maharashtra";18.562724;73.936526;"2024-10-10";"12:00:00";12;"Thursday";0;"urban";2;"0";"fog";"low";36.0;"high";"distraction";"minor";2;2;0;"No Festival";0.65
+659;"Hyderabad";"Telangana";17.313992;78.268967;"2022-08-03";"13:00:00";13;"Wednesday";0;"rural";5;"0";"rain";"medium";40.0;"low";"weather";"minor";4;1;0;"No Festival";0.25
+660;"Chandigarh";"Punjab";30.68583;76.872043;"2025-02-22";"05:00:00";5;"Saturday";1;"highway";6;"0";"fog";"low";25.0;"low";"overspeeding";"fatal";2;2;0;"No Festival";0.65
+661;"Kolkata";"West Bengal";22.462673;88.333963;"2022-08-24";"07:00:00";7;"Wednesday";0;"highway";1;"0";"clear";"high";28.0;"low";"poor road";"minor";2;1;0;"No Festival";0.1
+662;"Kolkata";"West Bengal";22.60842;88.417758;"2024-04-25";"09:00:00";9;"Thursday";0;"highway";1;"1";"rain";"low";28.0;"high";"drunk driving";"minor";1;0;1;"No Festival";0.8
+663;"Chandigarh";"Punjab";30.625597;76.791535;"2022-10-07";"17:00:00";17;"Friday";0;"highway";6;"0";"fog";"low";31.0;"high";"distraction";"minor";5;5;1;"No Festival";0.8
+664;"Kolkata";"West Bengal";22.579715;88.277369;"2022-09-09";"02:00:00";2;"Friday";0;"rural";5;"0";"clear";"high";24.0;"low";"overspeeding";"minor";2;1;0;"No Festival";0.1
+665;"Hyderabad";"Telangana";17.421082;78.258105;"2022-03-21";"12:00:00";12;"Monday";0;"highway";1;"1";"rain";"medium";36.0;"medium";"poor road";"minor";4;0;0;"No Festival";0.25
+666;"Chandigarh";"Punjab";30.719447;76.727079;"2024-03-22";"07:00:00";7;"Friday";0;"urban";1;"1";"rain";"low";40.0;"medium";"poor road";"minor";5;4;0;"No Festival";0.45
+667;"Delhi";"Delhi";28.604328;76.832823;"2022-09-11";"09:00:00";9;"Sunday";1;"urban";4;"1";"clear";"high";23.0;"medium";"overspeeding";"minor";2;0;1;"No Festival";0.25
+668;"Hyderabad";"Telangana";17.402649;78.246267;"2024-09-17";"04:00:00";4;"Tuesday";0;"rural";1;"0";"fog";"low";17.0;"low";"weather";"major";2;2;0;"No Festival";0.45
+669;"Chandigarh";"Punjab";30.704541;76.796508;"2022-09-07";"02:00:00";2;"Wednesday";0;"highway";5;"0";"fog";"low";21.0;"low";"drunk driving";"fatal";5;5;0;"No Festival";0.65
+670;"Hyderabad";"Telangana";17.388875;78.214956;"2022-10-28";"23:00:00";23;"Friday";0;"rural";5;"0";"rain";"medium";22.0;"high";"overspeeding";"minor";5;1;0;"No Festival";0.45
+671;"Chandigarh";"Punjab";30.79483;76.773546;"2023-07-29";"14:00:00";14;"Saturday";1;"highway";2;"0";"fog";"low";20.0;"high";"distraction";"minor";2;2;0;"No Festival";0.65
+672;"Chandigarh";"Punjab";30.653326;76.795463;"2022-08-30";"20:00:00";20;"Tuesday";0;"rural";4;"1";"clear";"high";35.0;"high";"overspeeding";"minor";2;2;0;"No Festival";0.3
+673;"Chennai";"Tamil Nadu";13.102428;80.140145;"2025-03-21";"15:00:00";15;"Friday";0;"rural";5;"0";"clear";"high";37.0;"high";"weather";"minor";3;3;0;"No Festival";0.3
+674;"Hyderabad";"Telangana";17.402371;78.297586;"2022-05-04";"22:00:00";22;"Wednesday";0;"rural";5;"0";"fog";"low";18.0;"low";"weather";"minor";2;0;0;"No Festival";0.45
+675;"Delhi";"Delhi";28.611756;77.130556;"2022-07-25";"23:00:00";23;"Monday";0;"urban";6;"0";"clear";"high";36.0;"high";"drunk driving";"minor";3;0;0;"No Festival";0.3
+676;"Bangalore";"Karnataka";12.816265;77.607839;"2024-03-17";"11:00:00";11;"Sunday";1;"urban";4;"0";"clear";"high";16.0;"low";"weather";"minor";5;2;0;"No Festival";0.1
+677;"Hyderabad";"Telangana";17.447765;78.504138;"2023-02-10";"08:00:00";8;"Friday";0;"highway";4;"0";"rain";"medium";37.0;"high";"overspeeding";"minor";5;3;1;"No Festival";0.6
+678;"Hyderabad";"Telangana";17.423218;78.590405;"2023-10-24";"16:00:00";16;"Tuesday";0;"highway";3;"0";"fog";"low";36.0;"low";"drunk driving";"fatal";3;3;0;"No Festival";0.65
+679;"Pune";"Maharashtra";18.556561;73.724284;"2022-02-02";"08:00:00";8;"Wednesday";0;"highway";4;"0";"clear";"high";36.0;"high";"drunk driving";"major";3;3;1;"No Festival";0.45
+680;"Chandigarh";"Punjab";30.654531;76.811189;"2022-02-18";"16:00:00";16;"Friday";0;"highway";2;"1";"fog";"low";25.0;"medium";"distraction";"minor";2;1;0;"No Festival";0.45
+681;"Hyderabad";"Telangana";17.210242;78.36299;"2023-01-28";"00:00:00";0;"Saturday";1;"urban";3;"1";"fog";"low";39.0;"high";"drunk driving";"minor";4;4;0;"No Festival";0.65
+682;"Chennai";"Tamil Nadu";13.1071;80.190945;"2022-09-10";"13:00:00";13;"Saturday";1;"rural";2;"0";"clear";"high";29.0;"medium";"weather";"minor";3;0;0;"No Festival";0.1
+683;"Chennai";"Tamil Nadu";12.932566;80.18442;"2023-08-15";"17:00:00";17;"Tuesday";0;"highway";1;"0";"clear";"high";16.0;"high";"poor road";"major";5;3;1;"No Festival";0.45
+684;"Hyderabad";"Telangana";17.490835;78.269914;"2023-01-25";"10:00:00";10;"Wednesday";0;"rural";6;"0";"clear";"high";21.0;"high";"weather";"fatal";4;4;1;"No Festival";0.65
+685;"Hyderabad";"Telangana";17.476431;78.581214;"2023-03-16";"19:00:00";19;"Thursday";0;"urban";2;"1";"rain";"low";17.0;"high";"drunk driving";"minor";3;1;1;"No Festival";0.8
+686;"Hyderabad";"Telangana";17.534797;78.483255;"2022-12-20";"11:00:00";11;"Tuesday";0;"rural";6;"0";"clear";"high";40.0;"high";"overspeeding";"minor";3;2;0;"No Festival";0.3
+687;"Mumbai";"Maharashtra";18.82416;72.829696;"2024-11-18";"13:00:00";13;"Monday";0;"highway";2;"0";"rain";"medium";18.0;"medium";"poor road";"major";1;0;0;"No Festival";0.25
+688;"Chennai";"Tamil Nadu";12.80732;80.151435;"2023-03-08";"02:00:00";2;"Wednesday";0;"highway";5;"0";"rain";"low";23.0;"medium";"poor road";"minor";5;1;0;"Holi";0.55
+689;"Bangalore";"Karnataka";13.165875;77.461909;"2024-12-05";"14:00:00";14;"Thursday";0;"rural";1;"1";"clear";"high";31.0;"medium";"overspeeding";"minor";4;1;0;"No Festival";0.1
+690;"Bangalore";"Karnataka";13.190996;77.598571;"2023-02-15";"04:00:00";4;"Wednesday";0;"rural";2;"1";"rain";"low";25.0;"low";"weather";"minor";2;2;0;"No Festival";0.45
+691;"Delhi";"Delhi";28.624052;76.83438;"2023-09-11";"07:00:00";7;"Monday";0;"rural";3;"0";"fog";"low";35.0;"low";"poor road";"minor";1;0;0;"No Festival";0.45
+692;"Hyderabad";"Telangana";17.419559;78.596814;"2022-03-09";"19:00:00";19;"Wednesday";0;"rural";3;"0";"rain";"medium";38.0;"high";"distraction";"minor";5;2;1;"No Festival";0.6
+693;"Kolkata";"West Bengal";22.511567;88.420675;"2023-04-03";"07:00:00";7;"Monday";0;"urban";3;"1";"fog";"low";29.0;"medium";"weather";"fatal";5;5;0;"No Festival";0.65
+694;"Hyderabad";"Telangana";17.38426;78.38528;"2024-03-18";"04:00:00";4;"Monday";0;"rural";2;"1";"fog";"low";22.0;"medium";"poor road";"minor";3;1;0;"No Festival";0.45
+695;"Bangalore";"Karnataka";12.968574;77.645802;"2023-01-16";"18:00:00";18;"Monday";0;"urban";3;"0";"rain";"medium";38.0;"low";"overspeeding";"major";5;4;1;"No Festival";0.4
+696;"Mumbai";"Maharashtra";19.020915;72.746708;"2022-07-17";"10:00:00";10;"Sunday";1;"rural";2;"0";"clear";"high";33.0;"medium";"overspeeding";"major";5;1;1;"No Festival";0.25
+697;"Hyderabad";"Telangana";17.472554;78.423214;"2024-02-19";"16:00:00";16;"Monday";0;"rural";2;"1";"clear";"high";21.0;"low";"weather";"fatal";3;3;0;"No Festival";0.3
+698;"Pune";"Maharashtra";18.603833;73.969932;"2024-05-04";"15:00:00";15;"Saturday";1;"rural";5;"0";"fog";"low";37.0;"medium";"drunk driving";"major";1;1;0;"No Festival";0.45
+699;"Kolkata";"West Bengal";22.57938;88.349677;"2024-06-24";"15:00:00";15;"Monday";0;"rural";2;"0";"rain";"low";29.0;"low";"overspeeding";"minor";5;1;0;"No Festival";0.45
+700;"Chandigarh";"Punjab";30.634285;76.746653;"2023-05-06";"04:00:00";4;"Saturday";1;"urban";5;"0";"rain";"low";27.0;"medium";"poor road";"minor";4;4;0;"No Festival";0.45
+701;"Bangalore";"Karnataka";13.069173;77.427836;"2022-04-15";"20:00:00";20;"Friday";0;"rural";4;"0";"clear";"high";19.0;"medium";"poor road";"fatal";1;1;0;"No Festival";0.3
+702;"Pune";"Maharashtra";18.636929;73.844731;"2024-07-23";"02:00:00";2;"Tuesday";0;"highway";2;"0";"rain";"medium";32.0;"low";"overspeeding";"minor";1;0;0;"No Festival";0.25
+703;"Delhi";"Delhi";28.885271;77.004314;"2024-05-10";"10:00:00";10;"Friday";0;"rural";2;"1";"rain";"low";27.0;"high";"poor road";"fatal";4;4;1;"No Festival";1.0
+704;"Pune";"Maharashtra";18.572114;73.906677;"2024-12-19";"16:00:00";16;"Thursday";0;"highway";4;"0";"rain";"medium";21.0;"medium";"distraction";"major";3;2;0;"No Festival";0.25
+705;"Chandigarh";"Punjab";30.621787;76.801675;"2023-09-19";"07:00:00";7;"Tuesday";0;"highway";4;"1";"fog";"low";32.0;"medium";"distraction";"minor";2;0;0;"No Festival";0.45
+706;"Hyderabad";"Telangana";17.507989;78.437451;"2024-04-26";"15:00:00";15;"Friday";0;"highway";2;"1";"rain";"medium";28.0;"medium";"weather";"major";4;2;0;"No Festival";0.25
+707;"Chandigarh";"Punjab";30.649459;76.83009;"2024-01-30";"02:00:00";2;"Tuesday";0;"rural";1;"1";"rain";"low";23.0;"low";"overspeeding";"fatal";4;4;0;"No Festival";0.65
+708;"Chandigarh";"Punjab";30.78067;76.732065;"2024-09-18";"12:00:00";12;"Wednesday";0;"rural";1;"0";"fog";"low";36.0;"high";"weather";"major";5;4;0;"No Festival";0.65
+709;"Bangalore";"Karnataka";13.085083;77.477491;"2023-12-28";"07:00:00";7;"Thursday";0;"highway";6;"0";"fog";"low";34.0;"high";"drunk driving";"minor";4;0;0;"No Festival";0.65
+710;"Pune";"Maharashtra";18.5347;73.814123;"2022-09-06";"13:00:00";13;"Tuesday";0;"rural";6;"0";"fog";"low";40.0;"medium";"drunk driving";"fatal";3;3;0;"No Festival";0.65
+711;"Bangalore";"Karnataka";12.960497;77.428281;"2024-10-10";"04:00:00";4;"Thursday";0;"urban";3;"0";"clear";"high";22.0;"low";"overspeeding";"major";4;3;0;"No Festival";0.1
+712;"Bangalore";"Karnataka";13.092876;77.438094;"2023-07-31";"13:00:00";13;"Monday";0;"rural";5;"1";"clear";"high";32.0;"low";"drunk driving";"fatal";4;4;0;"No Festival";0.3
+713;"Pune";"Maharashtra";18.470503;73.788641;"2022-04-11";"11:00:00";11;"Monday";0;"highway";3;"0";"clear";"high";18.0;"medium";"distraction";"major";3;3;0;"No Festival";0.1
+714;"Hyderabad";"Telangana";17.380219;78.398458;"2023-12-30";"23:00:00";23;"Saturday";1;"rural";1;"0";"clear";"high";29.0;"medium";"overspeeding";"minor";2;0;0;"No Festival";0.1
+715;"Kolkata";"West Bengal";22.470777;88.377662;"2024-05-19";"20:00:00";20;"Sunday";1;"rural";4;"0";"clear";"high";38.0;"low";"weather";"minor";2;2;0;"No Festival";0.1
+716;"Bangalore";"Karnataka";12.856506;77.413713;"2023-05-24";"03:00:00";3;"Wednesday";0;"rural";5;"1";"rain";"low";21.0;"low";"poor road";"minor";4;2;0;"No Festival";0.45
+717;"Mumbai";"Maharashtra";18.974481;72.992122;"2022-04-18";"16:00:00";16;"Monday";0;"urban";5;"1";"clear";"high";30.0;"low";"drunk driving";"minor";5;0;0;"No Festival";0.1
+718;"Chandigarh";"Punjab";30.768335;76.718652;"2023-02-28";"17:00:00";17;"Tuesday";0;"urban";5;"1";"clear";"high";21.0;"high";"drunk driving";"minor";3;1;1;"No Festival";0.45
+719;"Mumbai";"Maharashtra";19.249045;72.822909;"2022-11-09";"06:00:00";6;"Wednesday";0;"urban";2;"1";"fog";"low";26.0;"medium";"overspeeding";"major";4;1;0;"No Festival";0.45
